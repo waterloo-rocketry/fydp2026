@@ -4070,6 +4070,10 @@
 		(uuid "13cdd689-167e-4581-845e-823f8f214ef2")
 	)
 	(no_connect
+		(at 69.85 63.5)
+		(uuid "14cf173d-c918-4f16-98f5-c28f8be0d87e")
+	)
+	(no_connect
 		(at 69.85 127)
 		(uuid "1836507e-469c-49d8-ab8d-45b490bcbf2a")
 	)
@@ -4088,10 +4092,6 @@
 	(no_connect
 		(at 69.85 78.74)
 		(uuid "2d061991-e8e3-4a09-9c01-9be35fa599ba")
-	)
-	(no_connect
-		(at 69.85 71.12)
-		(uuid "2e92c821-31d1-4fa9-b3aa-6a2bc58cd792")
 	)
 	(no_connect
 		(at 115.57 63.5)
@@ -4130,12 +4130,20 @@
 		(uuid "55514b8e-2b0a-4fcc-9427-88846185701b")
 	)
 	(no_connect
+		(at 69.85 60.96)
+		(uuid "55879e1b-e388-4a6a-a2d9-f25cfc052947")
+	)
+	(no_connect
 		(at 223.52 144.78)
 		(uuid "57607194-1dc9-4cb7-9594-0dde9d73d650")
 	)
 	(no_connect
 		(at 223.52 133.35)
 		(uuid "58888313-cd01-4921-95dc-ef442b195266")
+	)
+	(no_connect
+		(at 115.57 88.9)
+		(uuid "58b8365a-f9c2-417e-b3cc-b430fa3de5d8")
 	)
 	(no_connect
 		(at 69.85 139.7)
@@ -4168,10 +4176,6 @@
 	(no_connect
 		(at 115.57 60.96)
 		(uuid "805c19c5-3ab8-4bd3-83b2-d66e7153e5ea")
-	)
-	(no_connect
-		(at 69.85 81.28)
-		(uuid "81884adb-b10e-47f1-8da0-56aa81a26e21")
 	)
 	(no_connect
 		(at 69.85 91.44)
@@ -4242,10 +4246,6 @@
 		(uuid "bb81bc1c-f592-4cf8-865f-1d6dee9a76c9")
 	)
 	(no_connect
-		(at 69.85 73.66)
-		(uuid "bdacd4c4-2f02-4626-8279-caebd1b567b0")
-	)
-	(no_connect
 		(at 69.85 114.3)
 		(uuid "c14924fc-5d1d-40b5-935e-712938cd0098")
 	)
@@ -4292,10 +4292,6 @@
 	(no_connect
 		(at 198.12 133.35)
 		(uuid "f2b66d78-cc3f-4e2e-bd8e-42ad5ac08194")
-	)
-	(no_connect
-		(at 69.85 76.2)
-		(uuid "fac26b59-45c2-4664-a477-3f77e8a03afb")
 	)
 	(no_connect
 		(at 115.57 142.24)
@@ -5117,18 +5113,18 @@
 	)
 	(hierarchical_label "V_BATT"
 		(shape input)
-		(at 115.57 88.9 0)
+		(at 69.85 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "1fca1202-1a2a-44f6-9e54-5aa557be68f0")
 	)
 	(hierarchical_label "RTD_1"
 		(shape input)
-		(at 69.85 60.96 180)
+		(at 69.85 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5139,7 +5135,7 @@
 	)
 	(hierarchical_label "VALVE_2"
 		(shape output)
-		(at 115.57 40.64 0)
+		(at 115.57 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5172,7 +5168,7 @@
 	)
 	(hierarchical_label "HALL_1"
 		(shape input)
-		(at 69.85 66.04 180)
+		(at 69.85 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5183,7 +5179,7 @@
 	)
 	(hierarchical_label "HALL_2"
 		(shape input)
-		(at 69.85 68.58 180)
+		(at 69.85 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5192,9 +5188,20 @@
 		)
 		(uuid "61d0a1be-1c18-4768-ac31-fd5016ef1106")
 	)
+	(hierarchical_label "RTD_3"
+		(shape input)
+		(at 69.85 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "63cc6483-0558-40a9-a2ff-d378282865c3")
+	)
 	(hierarchical_label "PT_1"
 		(shape input)
-		(at 115.57 81.28 0)
+		(at 115.57 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5205,7 +5212,7 @@
 	)
 	(hierarchical_label "VALVE_1"
 		(shape output)
-		(at 115.57 38.1 0)
+		(at 115.57 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5282,7 +5289,7 @@
 	)
 	(hierarchical_label "RTD_2"
 		(shape input)
-		(at 69.85 63.5 180)
+		(at 69.85 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5304,7 +5311,7 @@
 	)
 	(hierarchical_label "PT_3"
 		(shape input)
-		(at 115.57 86.36 0)
+		(at 115.57 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5774,7 +5781,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "150R"
+		(property "Value" "169R"
 			(at 248.92 78.7399 0)
 			(effects
 				(font
@@ -5783,7 +5790,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 246.38 77.47 0)
 			(effects
 				(font
@@ -5910,7 +5917,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RED"
+		(property "Value" "WHITE"
 			(at 227.33 91.7574 90)
 			(effects
 				(font
@@ -5919,7 +5926,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 223.52 88.9 0)
 			(effects
 				(font
@@ -5998,7 +6005,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 167.64 33.02 0)
 			(effects
 				(font
@@ -6068,7 +6075,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 57.15 154.94 0)
 			(effects
 				(font
@@ -6204,7 +6211,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 208.28 33.02 0)
 			(effects
 				(font
@@ -6406,7 +6413,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 157.48 33.02 0)
 			(effects
 				(font
@@ -6540,7 +6547,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x02_P1.27mm_Vertical_SMD"
 			(at 171.45 78.74 0)
 			(effects
 				(font
@@ -6607,7 +6614,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "150R"
+		(property "Value" "169R"
 			(at 226.06 78.7399 0)
 			(effects
 				(font
@@ -6616,7 +6623,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 223.52 77.47 0)
 			(effects
 				(font
@@ -6686,7 +6693,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 67.31 154.94 0)
 			(effects
 				(font
@@ -6756,7 +6763,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 44.45 45.72 0)
 			(effects
 				(font
@@ -6892,7 +6899,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 238.76 33.02 0)
 			(effects
 				(font
@@ -6962,7 +6969,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 177.8 33.02 0)
 			(effects
 				(font
@@ -7164,7 +7171,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 218.44 33.02 0)
 			(effects
 				(font
@@ -7234,7 +7241,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 198.12 33.02 0)
 			(effects
 				(font
@@ -7502,7 +7509,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 187.96 33.02 0)
 			(effects
 				(font
@@ -7704,7 +7711,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 228.6 33.02 0)
 			(effects
 				(font
@@ -7772,7 +7779,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm"
 			(at 210.82 111.76 0)
 			(effects
 				(font
@@ -7884,7 +7891,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 246.38 90.17 0)
 			(effects
 				(font
