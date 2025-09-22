@@ -1,0 +1,2810 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "61913333-b933-4642-b350-841ad7615dd2")
+	(paper "A3")
+	(lib_symbols
+		(symbol "Connector:Conn_01x04_Socket"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04_Socket"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_Socket_1_1"
+				(arc
+					(start 0 -4.572)
+					(mid -0.5058 -5.08)
+					(end 0 -5.588)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -2.032)
+					(mid -0.5058 -2.54)
+					(end 0 -3.048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -0.508 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -0.508 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0.508)
+					(mid -0.5058 0)
+					(end 0 -0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 3.048)
+					(mid -0.5058 2.54)
+					(end 0 2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "automedon:patch_panel"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "patch_panel_0_1"
+				(rectangle
+					(start -12.7 -2.54)
+					(end 12.7 -33.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "patch_panel_1_1"
+				(pin power_out line
+					(at -15.24 -26.67 0)
+					(length 2.54)
+					(name "+10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -15.24 -24.13 0)
+					(length 2.54)
+					(name "+12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -15.24 -21.59 0)
+					(length 2.54)
+					(name "+24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -15.24 -29.21 0)
+					(length 2.54)
+					(name "+5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -15.24 -31.75 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -15.24 -3.81 0)
+					(length 2.54)
+					(name "OUT1+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -15.24 -6.35 0)
+					(length 2.54)
+					(name "OUT1-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -15.24 -8.89 0)
+					(length 2.54)
+					(name "OUT2+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -15.24 -11.43 0)
+					(length 2.54)
+					(name "OUT2-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -15.24 -13.97 0)
+					(length 2.54)
+					(name "OUT3+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -15.24 -16.51 0)
+					(length 2.54)
+					(name "OUT3-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 15.24 -11.43 180)
+					(length 2.54)
+					(name "S1_GND/PWR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 15.24 -3.81 180)
+					(length 2.54)
+					(name "S1_PWR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 15.24 -6.35 180)
+					(length 2.54)
+					(name "S1_SIG+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 15.24 -8.89 180)
+					(length 2.54)
+					(name "S1_SIG-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 15.24 -21.59 180)
+					(length 2.54)
+					(name "S2_GND/PWR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 15.24 -13.97 180)
+					(length 2.54)
+					(name "S2_PWR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 15.24 -16.51 180)
+					(length 2.54)
+					(name "S2_SIG+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 15.24 -19.05 180)
+					(length 2.54)
+					(name "S2_SIG-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 15.24 -31.75 180)
+					(length 2.54)
+					(name "S3_GND/PWR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 15.24 -24.13 180)
+					(length 2.54)
+					(name "S3_PWR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 15.24 -26.67 180)
+					(length 2.54)
+					(name "S3_SIG+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 15.24 -29.21 180)
+					(length 2.54)
+					(name "S3_SIG-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(no_connect
+		(at 290.83 187.96)
+		(uuid "383cc056-b485-4feb-af3c-12ddc6f9809f")
+	)
+	(no_connect
+		(at 290.83 76.2)
+		(uuid "7fddaf85-bed5-49ec-a567-6f96401d5238")
+	)
+	(no_connect
+		(at 290.83 114.3)
+		(uuid "a41d3f94-cce2-48c7-8690-78d43540d9fa")
+	)
+	(no_connect
+		(at 290.83 151.13)
+		(uuid "b4afda9a-6fb1-4155-ac7d-2199db2558b3")
+	)
+	(wire
+		(pts
+			(xy 288.29 119.38) (xy 288.29 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e5f1198-1764-4600-ae90-451f1ceda005")
+	)
+	(wire
+		(pts
+			(xy 290.83 193.04) (xy 288.29 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1231951c-ab9b-4bcd-95a5-efafcb415fbb")
+	)
+	(wire
+		(pts
+			(xy 288.29 156.21) (xy 288.29 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70a2324f-057e-4996-b406-0c79e0d38460")
+	)
+	(wire
+		(pts
+			(xy 288.29 81.28) (xy 288.29 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a52a75c8-8052-41f6-862c-eac056d68ead")
+	)
+	(wire
+		(pts
+			(xy 290.83 81.28) (xy 288.29 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e82197e7-c103-4503-a528-0f71c05f4cb1")
+	)
+	(wire
+		(pts
+			(xy 288.29 193.04) (xy 288.29 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f28f25fb-096c-411f-80be-93878eaa3165")
+	)
+	(wire
+		(pts
+			(xy 290.83 156.21) (xy 288.29 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc09644b-b373-4462-bcff-3cd23e226501")
+	)
+	(wire
+		(pts
+			(xy 290.83 119.38) (xy 288.29 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff81a8e8-e402-46fa-917b-b9638a9183b3")
+	)
+	(rectangle
+		(start 44.45 215.9)
+		(end 207.01 266.7)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8cea174b-9c24-41e1-b9d5-e4f52cfac39b)
+	)
+	(rectangle
+		(start 107.315 46.99)
+		(end 260.985 197.485)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9a0d7acf-5259-411a-88a4-2faa4f2d53f3)
+	)
+	(rectangle
+		(start 233.045 221.615)
+		(end 280.035 267.97)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e21523b3-a31d-41e1-b3d2-38d82954ae37)
+	)
+	(text "RasPi"
+		(exclude_from_sim no)
+		(at 252.476 234.696 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "120ce91c-c504-4343-9a5b-48cb434c0201")
+	)
+	(text "Low-Noise Supplies"
+		(exclude_from_sim no)
+		(at 122.428 242.316 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "61dff82a-3219-41cc-90dc-107d5299649b")
+	)
+	(text "NI Box"
+		(exclude_from_sim no)
+		(at 183.642 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c5641fe5-0618-48cf-89ba-84febcb110ce")
+	)
+	(label "DAQ_5"
+		(at 290.83 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0befe240-e6ec-41a3-b9fc-ca92cca87c4c")
+	)
+	(label "DAQ_24"
+		(at 290.83 182.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "135ee29e-d236-4699-a4b3-6b3baac080e4")
+	)
+	(label "DAQ_12"
+		(at 290.83 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "33321a78-85c0-47bc-8916-f159aa4dd1d2")
+	)
+	(label "DAQ_24"
+		(at 290.83 146.05 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3402b6eb-bb0e-4f3d-adca-e476235edaa9")
+	)
+	(label "DAQ_12"
+		(at 290.83 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "59976f44-f5ca-4265-9304-0b71cbeeddac")
+	)
+	(label "DAQ_5"
+		(at 290.83 190.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6afb158d-9d01-4f92-af40-36ea8f04a561")
+	)
+	(label "DAQ_12"
+		(at 290.83 148.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "88bd52be-85aa-417c-804a-ceeb98317a1f")
+	)
+	(label "DAQ_24"
+		(at 290.83 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "94891d40-1fc7-4410-a8b7-6904e0a6488b")
+	)
+	(label "DAQ_5"
+		(at 290.83 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b29f2cdb-4b96-4bf9-a160-adb49c3d5dfe")
+	)
+	(label "DAQ_12"
+		(at 290.83 185.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b41dc7cc-69b4-408f-94eb-669f8fc06801")
+	)
+	(label "DAQ_24"
+		(at 290.83 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d4d41dff-d038-4a28-98e7-a4837a26f6bb")
+	)
+	(label "DAQ_5"
+		(at 290.83 153.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d550a9d4-2b0e-4d17-a8e6-f7d2ba6e5e4f")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 288.29 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00b112d1-b34d-4ec5-b298-ee8a1dee7ed5")
+		(property "Reference" "#PWR023"
+			(at 288.29 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 288.29 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 288.29 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 288.29 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 288.29 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33fd2055-7625-4df8-9b4f-5ba8679dc2f6")
+		)
+		(instances
+			(project "automedon"
+				(path "/75831ec5-d9f4-4d6d-a97b-0bb87f785768/6fea6001-7dd1-49ca-a8a2-08f77dfd1094"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Socket")
+		(at 330.2 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0275bff7-8b2e-4d75-90d8-5ee43341c13e")
+		(property "Reference" "J27"
+			(at 331.47 177.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "09-4224-00-04"
+			(at 331.47 180.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 330.2 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 330.2 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 330.2 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "87b0a8a7-db64-4319-bbe2-de7fc0cc95dd")
+		)
+		(pin "4"
+			(uuid "8b2141dc-922f-45fe-b5f7-35324389af35")
+		)
+		(pin "1"
+			(uuid "3e06d808-109f-4acb-9e4d-3465eea8a999")
+		)
+		(pin "3"
+			(uuid "2364d652-8927-43d8-b4ef-e4a41012263d")
+		)
+		(instances
+			(project "automedon"
+				(path "/75831ec5-d9f4-4d6d-a97b-0bb87f785768/6fea6001-7dd1-49ca-a8a2-08f77dfd1094"
+					(reference "J27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Socket")
+		(at 328.93 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03066a89-640f-48e5-9dee-9e0c49ab4fc6")
+		(property "Reference" "J22"
+			(at 330.2 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "09-4224-00-04"
+			(at 330.2 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 328.93 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 328.93 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 328.93 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "02e99b73-d009-4849-8517-7856ca94b9a5")
+		)
+		(pin "4"
+			(uuid "5ff1c1ee-ff55-4cde-8929-dfd617174477")
+		)
+		(pin "1"
+			(uuid "3c31f187-9f10-4ebe-be52-738e77f615d8")
+		)
+		(pin "3"
+			(uuid "14a9eb0b-8810-4689-8691-07c8e556b6ad")
+		)
+		(instances
+			(project "automedon"
+				(path "/75831ec5-d9f4-4d6d-a97b-0bb87f785768/6fea6001-7dd1-49ca-a8a2-08f77dfd1094"
+					(reference "J22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Socket")
+		(at 330.2 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15176a89-228c-4c36-97aa-79e436261eaa")
+		(property "Reference" "J26"
+			(at 331.47 167.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "09-4224-00-04"
+			(at 331.47 170.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 330.2 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 330.2 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 330.2 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "151b497f-48cb-4888-9882-67eb8a1e42c8")
+		)
+		(pin "4"
+			(uuid "41db1357-3cc9-4ba5-8ca2-4b67873476e5")
+		)
+		(pin "1"
+			(uuid "7ac4e9e0-64b0-46a0-94bb-0a4e326be0cd")
+		)
+		(pin "3"
+			(uuid "bc96a8f5-0e53-42b1-b74e-d5e7123f6152")
+		)
+		(instances
+			(project "automedon"
+				(path "/75831ec5-d9f4-4d6d-a97b-0bb87f785768/6fea6001-7dd1-49ca-a8a2-08f77dfd1094"
+					(reference "J26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 288.29 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a6717e7-c5ef-4583-8576-21b9bc9b934a")
+		(property "Reference" "#PWR021"
+			(at 288.29 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 288.29 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 288.29 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 288.29 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 288.29 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5636d5a5-938e-470d-a7e3-c492d3029d18")
+		)
+		(instances
+			(project ""
+				(path "/75831ec5-d9f4-4d6d-a97b-0bb87f785768/6fea6001-7dd1-49ca-a8a2-08f77dfd1094"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Socket")
+		(at 328.93 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c9dc02a-28bf-4680-8dbe-f27d7c924a00")
+		(property "Reference" "J17"
+			(at 330.2 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "09-4224-00-04"
+			(at 330.2 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 328.93 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 328.93 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 328.93 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c1d1f9d2-a7a9-402a-9c63-0dc6ea9238cd")
+		)
+		(pin "4"
+			(uuid "82d9639a-390b-44d3-bf74-8b8e49772f3a")
+		)
+		(pin "1"
+			(uuid "3ef8857c-6e6a-4eb4-a302-03ffad4bb800")
+		)
+		(pin "3"
+			(uuid "e2ff5dbb-1311-46aa-8a69-2a98e9a86052")
+		)
+		(instances
+			(project "automedon"
+				(path "/75831ec5-d9f4-4d6d-a97b-0bb87f785768/6fea6001-7dd1-49ca-a8a2-08f77dfd1094"
+					(reference "J17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "automedon:patch_panel")
+		(at 306.07 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ff4e33f-4a2f-4929-a89b-314a0d880f79")
+		(property "Reference" "U16"
+			(at 306.07 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 306.07 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 306.07 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 306.07 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 306.07 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "9f435b54-294f-4e47-ae07-1b1c8aae6ca9")
+		)
+		(pin ""
+			(uuid "5589e9f4-c081-4617-a5af-99d06a7d9074")
+		)
+		(pin ""
+			(uuid "e49ae53d-a7fb-4ce3-8f72-9a1eddfc29f0")
+		)
+		(pin ""
+			(uuid "8a7c012a-2f9e-4528-8b33-3a3a35b6528a")
+		)
+		(pin ""
+			(uuid "65c4fe6b-6e2b-49b9-b63a-84b53815a121")
+		)
+		(pin ""
+			(uuid "f1e0dc40-fbc5-45ec-a4ce-9e68c50c8c48")
+		)
+		(pin ""
+			(uuid "54d209ac-4076-4e64-93c9-761262f8372e")
+		)
+		(pin ""
+			(uuid "68abd92c-cec3-428a-ad95-3e8498240f42")
+		)
+		(pin ""
+			(uuid "e72166bb-f583-4abc-8f54-715877ccd8f0")
+		)
+		(pin ""
+			(uuid "c8849ecc-6a96-4ad6-b450-190f84b7592f")
+		)
+		(pin ""
+			(uuid "fa435fc7-075c-4596-a13c-dc91c1e360e0")
+		)
+		(pin ""
+			(uuid "8353e8eb-b803-434f-9988-273151f485c2")
+		)
+		(pin ""
+			(uuid "f704cd6c-1a9a-4298-b790-94c2432d16c7")
+		)
+		(pin ""
+			(uuid "dba87b7c-a0d3-403c-b5e3-58acb620bdde")
+		)
+		(pin ""
+			(uuid "ebc246b4-39d8-4724-966b-a5902ae80b4d")
+		)
+		(pin ""
+			(uuid "fc1a5bd1-6f27-459f-9c3e-14422333d853")
+		)
+		(pin ""
+			(uuid "e91c9433-92c4-4da1-96ea-29a1fdfdc704")
+		)
+		(pin ""
+			(uuid "a746823f-e14f-422a-9cae-e7001a155da2")
+		)
+		(pin ""
+			(uuid "8bcc0079-14f3-44db-845b-33ae8288053c")
+		)
+		(pin ""
+			(uuid "61f92dcd-4450-45dc-b9ae-51e4a95474a7")
+		)
+		(pin ""
+			(uuid "5a97e082-1550-469a-bb96-701a56b6668b")
+		)
+		(pin ""
+			(uuid "c024f1cb-86c2-4ec1-b578-4ac62213cadf")
+		)
+		(pin ""
+			(uuid "92fdabc3-eeaf-4230-a84b-f5c7e638853c")
+		)
+		(instances
+			(project "automedon"
+				(path "/75831ec5-d9f4-4d6d-a97b-0bb87f785768/6fea6001-7dd1-49ca-a8a2-08f77dfd1094"
+					(reference "U16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 288.29 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d020cca-9874-4c8b-a00d-c3da3faf44d6")
+		(property "Reference" "#PWR024"
+			(at 288.29 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 288.29 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 288.29 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 288.29 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 288.29 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "133e2a3b-bc5b-4adb-80ed-fc089e653757")
+		)
+		(instances
+			(project "automedon"
+				(path "/75831ec5-d9f4-4d6d-a97b-0bb87f785768/6fea6001-7dd1-49ca-a8a2-08f77dfd1094"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Socket")
+		(at 330.2 187.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "567dfaa9-9387-4da3-8dc1-389d506b9625")
+		(property "Reference" "J28"
+			(at 331.47 187.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "09-4224-00-04"
+			(at 331.47 190.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 330.2 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 330.2 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 330.2 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9147188a-38b6-40ff-9810-d4921d3b052e")
+		)
+		(pin "4"
+			(uuid "829b2bbb-9930-4703-a26e-12a9a0cebd1a")
+		)
+		(pin "1"
+			(uuid "8b33b104-4a07-4e7a-9e3e-8b64ef619c85")
+		)
+		(pin "3"
+			(uuid "be37b5ca-ace7-431f-b23c-8994f46dcb1d")
+		)
+		(instances
+			(project "automedon"
+				(path "/75831ec5-d9f4-4d6d-a97b-0bb87f785768/6fea6001-7dd1-49ca-a8a2-08f77dfd1094"
+					(reference "J28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 288.29 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ba60bf0-ee9b-403f-9ee5-54204f6ad9d7")
+		(property "Reference" "#PWR022"
+			(at 288.29 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 288.29 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 288.29 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 288.29 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 288.29 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c629f36-2535-47d6-b41e-303dd86d83fa")
+		)
+		(instances
+			(project "automedon"
+				(path "/75831ec5-d9f4-4d6d-a97b-0bb87f785768/6fea6001-7dd1-49ca-a8a2-08f77dfd1094"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Socket")
+		(at 328.93 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c85923e-54ec-423b-aeec-3dc4ff2faab6")
+		(property "Reference" "J23"
+			(at 330.2 130.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "09-4224-00-04"
+			(at 330.2 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 328.93 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 328.93 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 328.93 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1057d971-b322-4a2e-aa52-d22a85ff966b")
+		)
+		(pin "4"
+			(uuid "36558c4e-4320-4da2-901d-102fd28dd819")
+		)
+		(pin "1"
+			(uuid "630e1961-641b-4cf3-a050-3ca9b74f380b")
+		)
+		(pin "3"
+			(uuid "f60cbde9-a44b-4d3b-895b-6f93fe079fa5")
+		)
+		(instances
+			(project "automedon"
+				(path "/75831ec5-d9f4-4d6d-a97b-0bb87f785768/6fea6001-7dd1-49ca-a8a2-08f77dfd1094"
+					(reference "J23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "automedon:patch_panel")
+		(at 306.07 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f93cc6c-42a0-4361-ba22-c04165a0c8ad")
+		(property "Reference" "U13"
+			(at 306.07 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 306.07 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 306.07 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 306.07 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 306.07 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "7ca0d38e-276a-47c2-90b4-cbd13c4c917d")
+		)
+		(pin ""
+			(uuid "6dd90587-59b2-4af8-8cf5-595a8c4ab224")
+		)
+		(pin ""
+			(uuid "aae4bbd6-70bf-4452-868b-840121e7ac48")
+		)
+		(pin ""
+			(uuid "e67e2f9d-1a79-4351-86ca-f6be27f0226c")
+		)
+		(pin ""
+			(uuid "8975b75b-5567-4001-a294-2e7ab879c40a")
+		)
+		(pin ""
+			(uuid "c1262354-e17a-4b87-9ac6-02739aa24dc6")
+		)
+		(pin ""
+			(uuid "91e14c68-1e12-4851-8c4f-24e9fc4c31c3")
+		)
+		(pin ""
+			(uuid "c8dcb5b3-1d43-4aff-a605-3b7541636c38")
+		)
+		(pin ""
+			(uuid "efc41731-3224-439b-b737-70f156b77822")
+		)
+		(pin ""
+			(uuid "2878809c-8333-4d1f-b350-11a6aeab496c")
+		)
+		(pin ""
+			(uuid "8ecf0ba6-0021-4046-a84b-47286867c5eb")
+		)
+		(pin ""
+			(uuid "465e9a0b-77e7-465f-abdd-2d3715268760")
+		)
+		(pin ""
+			(uuid "150fe278-9764-4b8e-8789-0db5da2f778c")
+		)
+		(pin ""
+			(uuid "dface72e-83ab-4df3-b7d2-535a676c5d4b")
+		)
+		(pin ""
+			(uuid "0a1cb183-f0d5-454f-9433-9a792a01b219")
+		)
+		(pin ""
+			(uuid "32f0b5f3-c512-4655-9138-6a577f92cd86")
+		)
+		(pin ""
+			(uuid "b16f64c4-6376-44e0-b1c7-166fee7c3aa1")
+		)
+		(pin ""
+			(uuid "85d9ca5f-3590-4ff7-886a-6d4b232ef3f6")
+		)
+		(pin ""
+			(uuid "008ca39c-090c-483c-830a-29f24cb224bc")
+		)
+		(pin ""
+			(uuid "605dc24e-4793-46b0-bef3-ed35862491d9")
+		)
+		(pin ""
+			(uuid "f1cefca1-ff3c-436b-9bf1-b52733af12a0")
+		)
+		(pin ""
+			(uuid "477069cf-8afa-48d7-a32d-e8bb588e6185")
+		)
+		(pin ""
+			(uuid "01508ac9-cd64-4934-970b-32c00e1b6819")
+		)
+		(instances
+			(project ""
+				(path "/75831ec5-d9f4-4d6d-a97b-0bb87f785768/6fea6001-7dd1-49ca-a8a2-08f77dfd1094"
+					(reference "U13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "automedon:patch_panel")
+		(at 306.07 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8db52b36-6f1e-4743-bdf1-23cf1f87efa1")
+		(property "Reference" "U14"
+			(at 306.07 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 306.07 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 306.07 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 306.07 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 306.07 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "df3f4392-7e71-4eb4-8bea-39abd773304e")
+		)
+		(pin ""
+			(uuid "2a59efeb-1f07-4ca4-9c02-e3fede11676b")
+		)
+		(pin ""
+			(uuid "903ba6b7-599f-4fa4-94c7-c9671bcd936d")
+		)
+		(pin ""
+			(uuid "d646de99-8e2e-4f7d-8f8f-0c8f3a0234ec")
+		)
+		(pin ""
+			(uuid "86d14918-5be3-4155-960f-2f68a12914e3")
+		)
+		(pin ""
+			(uuid "0e191db2-8e2c-4ca1-9a10-3f864e2f6f8f")
+		)
+		(pin ""
+			(uuid "3be467bd-f5ae-4a21-b04e-19bd96d2f48c")
+		)
+		(pin ""
+			(uuid "a439cc3f-58ef-4876-b47a-7fda2188e010")
+		)
+		(pin ""
+			(uuid "d4661638-7557-4ce3-b220-3d9234a1c1fa")
+		)
+		(pin ""
+			(uuid "5a4ff455-91bc-49f9-8098-3ea0cc724d3b")
+		)
+		(pin ""
+			(uuid "17ec898b-9aaf-44c1-a8d1-13efa278d96b")
+		)
+		(pin ""
+			(uuid "997a7fd7-57f8-4b43-af0d-1f76115a0ae6")
+		)
+		(pin ""
+			(uuid "8a9a8f3a-9a4b-422e-bab2-1650f251ce1f")
+		)
+		(pin ""
+			(uuid "0e31aec5-eba4-4efe-b607-7693088d35c0")
+		)
+		(pin ""
+			(uuid "6b7d8b06-c8e2-4b92-b9b0-c2dc6c1b9406")
+		)
+		(pin ""
+			(uuid "bfec7e06-5531-4ea5-a60c-c20cca39810d")
+		)
+		(pin ""
+			(uuid "9e2f9386-1ac3-4c1d-81e2-841a766a4c76")
+		)
+		(pin ""
+			(uuid "1026021f-2b0e-4f0a-8f8b-5ac2a6ebb2ac")
+		)
+		(pin ""
+			(uuid "5e97594c-2711-4bdd-9d50-a279f437b416")
+		)
+		(pin ""
+			(uuid "939a6572-c648-4114-959b-88759ed31a84")
+		)
+		(pin ""
+			(uuid "736e4ef9-5554-476d-a45b-ec2cdb050390")
+		)
+		(pin ""
+			(uuid "b1a7714b-cd77-452d-b1f3-6af4ea0d67e7")
+		)
+		(pin ""
+			(uuid "5a3fa359-27a3-4354-890e-edc0e107b57b")
+		)
+		(instances
+			(project "automedon"
+				(path "/75831ec5-d9f4-4d6d-a97b-0bb87f785768/6fea6001-7dd1-49ca-a8a2-08f77dfd1094"
+					(reference "U14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Socket")
+		(at 328.93 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9644ba45-0408-4b6b-a831-2d40f6dd75d3")
+		(property "Reference" "J20"
+			(at 330.2 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "09-4224-00-04"
+			(at 330.2 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 328.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 328.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 328.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "eea4de04-188f-422c-a2ee-80b51cfd5bdd")
+		)
+		(pin "4"
+			(uuid "d5b55fe6-892b-4ff3-a1c5-cf2931c60dac")
+		)
+		(pin "1"
+			(uuid "30caae9f-0c00-4cfd-8a51-c9778848b028")
+		)
+		(pin "3"
+			(uuid "2f81b38b-7b55-4132-a4f4-d248b17cc246")
+		)
+		(instances
+			(project "automedon"
+				(path "/75831ec5-d9f4-4d6d-a97b-0bb87f785768/6fea6001-7dd1-49ca-a8a2-08f77dfd1094"
+					(reference "J20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Socket")
+		(at 328.93 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a6eaa26-a011-46ac-88ee-6e43ef37c88b")
+		(property "Reference" "J25"
+			(at 330.2 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "09-4224-00-04"
+			(at 330.2 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 328.93 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 328.93 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 328.93 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e5f92b12-7e43-4471-8f33-0e0e75356cdf")
+		)
+		(pin "4"
+			(uuid "f67042db-a9a0-4486-b19c-36f8fbc8cc07")
+		)
+		(pin "1"
+			(uuid "195287ce-ab92-4f0c-b847-02ca2dbc14f1")
+		)
+		(pin "3"
+			(uuid "cd4add6c-0aa6-4c14-9057-4fbec5490390")
+		)
+		(instances
+			(project "automedon"
+				(path "/75831ec5-d9f4-4d6d-a97b-0bb87f785768/6fea6001-7dd1-49ca-a8a2-08f77dfd1094"
+					(reference "J25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "automedon:patch_panel")
+		(at 306.07 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8272c17-7863-4c91-810c-da0a08e2f40c")
+		(property "Reference" "U15"
+			(at 306.07 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 306.07 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 306.07 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 306.07 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 306.07 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "b0b110b0-b018-4cd8-a3a7-6a0c60f14ce4")
+		)
+		(pin ""
+			(uuid "1b3321ca-337e-4501-bbd9-a7f7510fa0ce")
+		)
+		(pin ""
+			(uuid "9f0f0edd-4522-428e-939c-ae5f94bde5e7")
+		)
+		(pin ""
+			(uuid "5ebc6ae9-82a7-4b3b-a1da-8b091caac273")
+		)
+		(pin ""
+			(uuid "511c6059-859a-434b-9fc1-c8cc84a5a597")
+		)
+		(pin ""
+			(uuid "aafb098e-55bc-4eef-bf00-9abeeb9290f0")
+		)
+		(pin ""
+			(uuid "214a1b66-178a-4512-8c62-353e91a8e270")
+		)
+		(pin ""
+			(uuid "7bc3f5bc-379f-416e-969a-22606023ad8b")
+		)
+		(pin ""
+			(uuid "f6f1812d-7d57-442d-9876-39ae7037dc3a")
+		)
+		(pin ""
+			(uuid "d25e5163-a750-497c-8f0f-6befab557067")
+		)
+		(pin ""
+			(uuid "88a37809-d2e0-4f87-b851-63dbaf9edffc")
+		)
+		(pin ""
+			(uuid "ed9e5de7-54ff-4c07-b2bf-ed8bbb352798")
+		)
+		(pin ""
+			(uuid "2d855bd9-e01a-4d26-ae7f-8fce09d01e35")
+		)
+		(pin ""
+			(uuid "2389729b-5907-445a-918a-ece6861ebcb8")
+		)
+		(pin ""
+			(uuid "5b38e46f-cb95-4b4b-8df3-5e61ea7e50d6")
+		)
+		(pin ""
+			(uuid "4a5c9969-1c02-4941-acf6-a3739703ac03")
+		)
+		(pin ""
+			(uuid "77aa6b71-00e4-499f-9e32-bd353d33440e")
+		)
+		(pin ""
+			(uuid "13e34d40-3baf-4997-b153-0f4797dbba16")
+		)
+		(pin ""
+			(uuid "f46bbf7b-c7af-4022-9cce-c5c3115a6b32")
+		)
+		(pin ""
+			(uuid "203fdfdd-e402-4e74-8c56-8f481f9de7cb")
+		)
+		(pin ""
+			(uuid "9585f906-72f0-4698-b891-0ab24a4fb9fe")
+		)
+		(pin ""
+			(uuid "8ccb7e42-c022-47fd-8627-5c0bf1d4dcda")
+		)
+		(pin ""
+			(uuid "15d3c4c8-b0e0-4c75-a629-fef1d7417461")
+		)
+		(instances
+			(project "automedon"
+				(path "/75831ec5-d9f4-4d6d-a97b-0bb87f785768/6fea6001-7dd1-49ca-a8a2-08f77dfd1094"
+					(reference "U15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Socket")
+		(at 328.93 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b01f3740-3c4a-439b-b7eb-2d58ed3b135c")
+		(property "Reference" "J24"
+			(at 330.2 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "09-4224-00-04"
+			(at 330.2 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 328.93 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 328.93 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 328.93 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2718e7e5-721c-4a42-a1f0-daf6e1d805e0")
+		)
+		(pin "4"
+			(uuid "1194d1d3-1aa5-4d78-a7f0-ac30e1b2e73d")
+		)
+		(pin "1"
+			(uuid "6b78cef7-cbec-40c6-b74b-18342334782f")
+		)
+		(pin "3"
+			(uuid "a8732f1a-dfd6-4f78-abff-5b8b2ca8bd3b")
+		)
+		(instances
+			(project "automedon"
+				(path "/75831ec5-d9f4-4d6d-a97b-0bb87f785768/6fea6001-7dd1-49ca-a8a2-08f77dfd1094"
+					(reference "J24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Socket")
+		(at 328.93 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca22c3f3-b919-4893-b319-e049e52a5af2")
+		(property "Reference" "J19"
+			(at 330.2 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "09-4224-00-04"
+			(at 330.2 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 328.93 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 328.93 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 328.93 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d413e63e-169a-4b19-96de-6d302df3452c")
+		)
+		(pin "4"
+			(uuid "a48ab52e-6c2f-45c6-957e-76a996b67137")
+		)
+		(pin "1"
+			(uuid "689fa5e7-dd3c-4d76-83df-14124c14be16")
+		)
+		(pin "3"
+			(uuid "7098752d-79c1-4c87-8413-ab5a36dc77e7")
+		)
+		(instances
+			(project "automedon"
+				(path "/75831ec5-d9f4-4d6d-a97b-0bb87f785768/6fea6001-7dd1-49ca-a8a2-08f77dfd1094"
+					(reference "J19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Socket")
+		(at 328.93 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1625860-88fb-4850-bf26-4a41c8ea592c")
+		(property "Reference" "J18"
+			(at 330.2 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "09-4224-00-04"
+			(at 330.2 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 328.93 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 328.93 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 328.93 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ca4c3ac4-7e53-4d96-91a5-757bf6ceacf9")
+		)
+		(pin "4"
+			(uuid "60d2ceb2-6c64-41d4-9ecf-e2d24ab16614")
+		)
+		(pin "1"
+			(uuid "adc16bd7-b501-4898-8d63-0ed62f420fd2")
+		)
+		(pin "3"
+			(uuid "c2b04141-2b73-4c3b-a92e-44b92ee70d50")
+		)
+		(instances
+			(project ""
+				(path "/75831ec5-d9f4-4d6d-a97b-0bb87f785768/6fea6001-7dd1-49ca-a8a2-08f77dfd1094"
+					(reference "J18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Socket")
+		(at 328.93 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8b323ff-a0c1-463f-952b-1f61ad444de8")
+		(property "Reference" "J21"
+			(at 330.2 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "09-4224-00-04"
+			(at 330.2 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 328.93 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 328.93 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 328.93 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0319422f-cda4-43ea-b75d-5d796b55801c")
+		)
+		(pin "4"
+			(uuid "514adf38-3233-4288-ad79-250a7c04b057")
+		)
+		(pin "1"
+			(uuid "88c525b8-3880-41b7-b55f-0771a2ac15fd")
+		)
+		(pin "3"
+			(uuid "85e7d220-c732-40ab-9f1d-f090e735235c")
+		)
+		(instances
+			(project "automedon"
+				(path "/75831ec5-d9f4-4d6d-a97b-0bb87f785768/6fea6001-7dd1-49ca-a8a2-08f77dfd1094"
+					(reference "J21")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
