@@ -4285,12 +4285,12 @@
 		(uuid "dffe0eee-8175-43e9-b44f-c27abad6c5da")
 	)
 	(no_connect
-		(at 115.57 53.34)
-		(uuid "e3d16645-f781-4d7d-beb1-7b02450e91c6")
-	)
-	(no_connect
 		(at 115.57 66.04)
 		(uuid "e78fd48f-bfd9-4e05-9345-650e72c2e003")
+	)
+	(no_connect
+		(at 115.57 137.16)
+		(uuid "f4598630-c80c-42a6-a954-f3dbb7388e18")
 	)
 	(no_connect
 		(at 115.57 142.24)
@@ -5320,7 +5320,7 @@
 	)
 	(hierarchical_label "TC1_SI"
 		(shape input)
-		(at 115.57 137.16 0)
+		(at 115.57 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
