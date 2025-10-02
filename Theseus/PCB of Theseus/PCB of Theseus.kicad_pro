@@ -625,7 +625,11 @@
     ],
     [
       "bb626b33-9f96-46da-af06-b1ff23ad5a9f",
-      "RTD"
+      "Temperature Sensors"
+    ],
+    [
+      "3da4aeeb-467f-4ebb-8b4b-66927969e9be",
+      "Valves and Sensors"
     ]
   ],
   "text_variables": {}
