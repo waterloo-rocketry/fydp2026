@@ -6,7 +6,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "USP"
+		(property "Reference" "UPS"
 			(at 1.778 34.29 0)
 			(effects
 				(font
