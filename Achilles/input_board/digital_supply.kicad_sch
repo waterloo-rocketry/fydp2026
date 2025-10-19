@@ -3322,7 +3322,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.6nF"
+		(property "Value" "1.6uF"
 			(at 260.858 133.858 0)
 			(effects
 				(font
