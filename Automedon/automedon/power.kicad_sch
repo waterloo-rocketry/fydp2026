@@ -3493,12 +3493,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:CircuitBreaker_2P"
+		(symbol "Device:CircuitBreaker_1P"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "CB"
-				(at 3.81 0 0)
+				(at 1.905 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3506,8 +3506,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "CircuitBreaker_2P"
-				(at 3.81 2.54 0)
+			(property "Value" "CircuitBreaker_1P"
+				(at 1.905 1.905 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3516,7 +3516,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at -2.54 0 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3525,15 +3525,6 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at -2.54 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Double pole circuit breaker"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3542,7 +3533,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "CB 2P"
+			(property "Description" "Single pole circuit breaker"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3551,10 +3542,19 @@
 					(hide yes)
 				)
 			)
-			(symbol "CircuitBreaker_2P_0_1"
+			(property "ki_keywords" "CB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CircuitBreaker_1P_0_1"
 				(polyline
 					(pts
-						(xy -3.81 0) (xy -2.286 0)
+						(xy 0 -3.81) (xy -2.54 3.81)
 					)
 					(stroke
 						(width 0)
@@ -3566,55 +3566,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 -3.81) (xy -5.08 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -3.81) (xy 0 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -5.08) (xy 2.54 -3.81)
+						(xy 0 -5.08) (xy 0 -3.81)
 					)
 					(stroke
 						(width 0)
@@ -3625,10 +3577,10 @@
 					)
 				)
 			)
-			(symbol "CircuitBreaker_2P_1_1"
+			(symbol "CircuitBreaker_1P_1_1"
 				(polyline
 					(pts
-						(xy -3.175 4.445) (xy -1.905 3.175)
+						(xy -0.635 4.445) (xy 0.635 3.175)
 					)
 					(stroke
 						(width 0)
@@ -3640,7 +3592,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 5.08) (xy -2.54 3.81)
+						(xy 0 5.08) (xy 0 3.81)
 					)
 					(stroke
 						(width 0)
@@ -3652,55 +3604,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 -3.81) (xy -2.54 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 4.445) (xy -3.175 3.175)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 4.445) (xy 3.175 3.175)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 5.08) (xy 2.54 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.175 4.445) (xy 1.905 3.175)
+						(xy 0.635 4.445) (xy -0.635 3.175)
 					)
 					(stroke
 						(width 0)
@@ -3711,7 +3615,7 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 7.62 270)
+					(at 0 7.62 270)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -3729,7 +3633,7 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 -7.62 90)
+					(at 0 -7.62 90)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -3739,42 +3643,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 7.62 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -7.62 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5484,9 +5352,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "25 A DC-rated 10 × 38 mm\n12 V master fuse\n"
+	(text "25 A ATC blade fuse (32 V DC)"
 		(exclude_from_sim no)
-		(at 211.328 40.64 0)
+		(at 214.884 42.926 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5506,7 +5374,7 @@
 	)
 	(text "4A Curve C MCB"
 		(exclude_from_sim no)
-		(at 55.626 31.242 0)
+		(at 57.15 31.242 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5928,7 +5796,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 46.99) (xy 48.26 46.99)
+			(xy 20.32 46.99) (xy 78.74 46.99)
 		)
 		(stroke
 			(width 0)
@@ -6028,7 +5896,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 52.07) (xy 212.09 52.07)
+			(xy 245.11 52.07) (xy 215.9 52.07)
 		)
 		(stroke
 			(width 0)
@@ -6108,17 +5976,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 46.99) (xy 78.74 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abd9c212-e408-41e4-bd9b-ee283d641771")
-	)
-	(wire
-		(pts
-			(xy 204.47 52.07) (xy 189.23 52.07)
+			(xy 208.28 52.07) (xy 189.23 52.07)
 		)
 		(stroke
 			(width 0)
@@ -6437,7 +6295,7 @@
 		(uuid "3182aebe-a84b-4098-a87e-72d45b936464")
 	)
 	(label "2-12-02"
-		(at 227.33 52.07 180)
+		(at 231.14 52.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6517,7 +6375,7 @@
 		(uuid "85c6e7d4-3942-42a4-9761-9aba58de90ef")
 	)
 	(label "2-12-01"
-		(at 241.3 52.07 180)
+		(at 245.11 52.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7018,7 +6876,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 208.28 52.07 270)
+		(at 212.09 52.07 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7027,15 +6885,15 @@
 		(dnp no)
 		(uuid "54bd23a8-dce8-457b-a789-3735f2dfd030")
 		(property "Reference" "F1"
-			(at 208.28 45.72 90)
+			(at 212.09 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LPHV0001Z"
-			(at 208.28 48.768 90)
+		(property "Value" "UK 6-FSI/C (3118203)"
+			(at 212.09 48.768 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7043,7 +6901,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 208.28 53.848 90)
+			(at 212.09 53.848 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7052,7 +6910,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 208.28 52.07 0)
+			(at 212.09 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7061,7 +6919,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 208.28 52.07 0)
+			(at 212.09 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7727,6 +7585,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:CircuitBreaker_1P")
+		(at 55.88 41.91 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b93ae23c-c465-4d19-9d54-c26a376e3acf")
+		(property "Reference" "CB1"
+			(at 55.88 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B1NQ1C4"
+			(at 55.88 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single pole circuit breaker"
+			(at 55.88 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "121048b9-a894-4977-a527-d86cff5dae74")
+		)
+		(pin "2"
+			(uuid "d7df4241-6692-4c6c-a5de-83a9a2bf4643")
+		)
+		(instances
+			(project ""
+				(path "/75831ec5-d9f4-4d6d-a97b-0bb87f785768/71d498b1-1ae2-4b4b-ac1c-08dcfc85d4b3"
+					(reference "CB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "CONN_TERM_3_1")
 		(lib_id "automedon:CONN_TERM_3")
 		(at 106.68 168.91 90)
@@ -8158,80 +8084,6 @@
 			(project "automedon"
 				(path "/75831ec5-d9f4-4d6d-a97b-0bb87f785768/71d498b1-1ae2-4b4b-ac1c-08dcfc85d4b3"
 					(reference "J40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:CircuitBreaker_2P")
-		(at 55.88 44.45 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dfa587ba-9590-45b5-8a4c-20b69ada4023")
-		(property "Reference" "CB1"
-			(at 55.88 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "B1NQ1C4"
-			(at 55.88 36.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 55.88 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Double pole circuit breaker"
-			(at 55.88 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "e8073702-a0cf-4e6c-837d-e1cf34f88d1b")
-		)
-		(pin "1"
-			(uuid "c0cd1b12-e484-4dac-b368-a7ffac53cb91")
-		)
-		(pin "2"
-			(uuid "f07e2817-db6c-49dc-907b-0115594f66f7")
-		)
-		(pin "3"
-			(uuid "d0cfd729-2795-4ca8-9996-6c94673f5399")
-		)
-		(instances
-			(project "automedon"
-				(path "/75831ec5-d9f4-4d6d-a97b-0bb87f785768/71d498b1-1ae2-4b4b-ac1c-08dcfc85d4b3"
-					(reference "CB1")
 					(unit 1)
 				)
 			)
