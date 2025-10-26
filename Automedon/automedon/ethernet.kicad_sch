@@ -819,10 +819,6 @@
 		(uuid "35f97e33-db71-4e6b-983c-931716e9112b")
 	)
 	(no_connect
-		(at 162.56 85.09)
-		(uuid "3d409d69-fa66-4719-9830-115be21f2aef")
-	)
-	(no_connect
 		(at 162.56 128.27)
 		(uuid "78b905c6-97f7-4751-a2e2-a7ea8d7ea168")
 	)
@@ -845,10 +841,6 @@
 	(no_connect
 		(at 165.1 105.41)
 		(uuid "a3957207-9726-454f-b7a5-2086b2d5bb40")
-	)
-	(no_connect
-		(at 162.56 82.55)
-		(uuid "c45e5a41-95af-4f11-8c4f-adb1da23488f")
 	)
 	(no_connect
 		(at 165.1 102.87)
@@ -893,6 +885,16 @@
 			(type default)
 		)
 		(uuid "5d2d4431-087c-48bf-90d9-b0aa7cdda8a0")
+	)
+	(wire
+		(pts
+			(xy 162.56 82.55) (xy 163.83 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fb9a43a-6905-4161-9c77-e878c1c59a1a")
 	)
 	(wire
 		(pts
@@ -966,6 +968,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 85.09) (xy 163.83 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e58f34bc-8bca-45a6-aa4c-ba5f17c5eed4")
+	)
+	(wire
+		(pts
 			(xy 163.83 72.39) (xy 162.56 72.39)
 		)
 		(stroke
@@ -994,6 +1006,17 @@
 		)
 		(uuid "fec93cff-720a-4ba8-89e0-f0621187af1f")
 	)
+	(hierarchical_label "ETH_EXT_2"
+		(shape input)
+		(at 163.83 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "220c0759-a3ad-4a7f-82d0-33fde9e623bc")
+	)
 	(hierarchical_label "ETH_RLCS"
 		(shape input)
 		(at 163.83 74.93 0)
@@ -1004,6 +1027,17 @@
 			(justify left)
 		)
 		(uuid "2e4be7bc-0482-4a84-a7a9-bf740e325dda")
+	)
+	(hierarchical_label "ETH_EXT_1"
+		(shape input)
+		(at 163.83 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "31bc4bec-1fb3-4c0b-b434-c4c34b3ec009")
 	)
 	(hierarchical_label "ETH_WAP"
 		(shape input)
