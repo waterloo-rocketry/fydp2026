@@ -2004,7 +2004,7 @@
 		)
 		(uuid "19c9389c-4d87-4705-9c7a-cab960f9ce9f")
 	)
-	(text "mate\nT4113002081-000"
+	(text "mate\nMSXS-08BMMC-SL8002"
 		(exclude_from_sim no)
 		(at 27.178 270.51 0)
 		(effects
@@ -3946,7 +3946,7 @@
 				)
 			)
 		)
-		(property "Value" "T4131012081-000"
+		(property "Value" "MSXS-08PFFP-SF7002"
 			(at 27.686 266.954 0)
 			(effects
 				(font
@@ -4164,7 +4164,7 @@
 				)
 			)
 		)
-		(property "Value" "T4131012081-000"
+		(property "Value" "MSXS-08PFFP-SF7002"
 			(at 26.924 224.79 0)
 			(effects
 				(font
