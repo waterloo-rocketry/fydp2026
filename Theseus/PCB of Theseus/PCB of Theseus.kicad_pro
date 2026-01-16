@@ -133,7 +133,7 @@
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -622,10 +622,6 @@
     [
       "69868668-3056-4d52-8e9d-cd07748d784f",
       "SD Card"
-    ],
-    [
-      "bb626b33-9f96-46da-af06-b1ff23ad5a9f",
-      "Temperature Sensors"
     ],
     [
       "3da4aeeb-467f-4ebb-8b4b-66927969e9be",

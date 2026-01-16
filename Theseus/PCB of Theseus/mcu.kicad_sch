@@ -4458,7 +4458,7 @@
 	)
 	(text "TC1 using SPI1"
 		(exclude_from_sim no)
-		(at 128.27 134.112 0)
+		(at 125.476 56.388 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4759,6 +4759,14 @@
 		(uuid "8e8ab907-c80f-416e-9496-5cfd8924f037")
 	)
 	(no_connect
+		(at 69.85 68.58)
+		(uuid "9152eeee-1fbc-4dfb-ad6f-5aef415a5632")
+	)
+	(no_connect
+		(at 69.85 66.04)
+		(uuid "934c2a42-5df7-4871-a5d2-df8c8f492b14")
+	)
+	(no_connect
 		(at 69.85 96.52)
 		(uuid "94c77a47-0d63-4dcf-8def-a07fdb70f97b")
 	)
@@ -4785,6 +4793,10 @@
 	(no_connect
 		(at 69.85 48.26)
 		(uuid "a578dd65-5e95-4ef7-a1dc-fe4d497a55b2")
+	)
+	(no_connect
+		(at 69.85 71.12)
+		(uuid "a6df28e3-470a-4f87-bad1-6b5b50f29232")
 	)
 	(no_connect
 		(at 115.57 139.7)
@@ -5961,17 +5973,6 @@
 		)
 		(uuid "1fca1202-1a2a-44f6-9e54-5aa557be68f0")
 	)
-	(hierarchical_label "TC3"
-		(shape input)
-		(at 69.85 71.12 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "27b1ceab-ec17-498a-96de-7762c2cafd4d")
-	)
 	(hierarchical_label "TC1_NSS"
 		(shape input)
 		(at 115.57 48.26 0)
@@ -6038,20 +6039,9 @@
 		)
 		(uuid "61d0a1be-1c18-4768-ac31-fd5016ef1106")
 	)
-	(hierarchical_label "TC2+"
-		(shape input)
-		(at 69.85 66.04 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "63cc6483-0558-40a9-a2ff-d378282865c3")
-	)
 	(hierarchical_label "PT_1"
 		(shape input)
-		(at 115.57 86.36 0)
+		(at 115.57 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6128,7 +6118,7 @@
 	)
 	(hierarchical_label "PT_2"
 		(shape input)
-		(at 115.57 83.82 0)
+		(at 115.57 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6136,17 +6126,6 @@
 			(justify left)
 		)
 		(uuid "a81f5569-e774-4858-bfa9-c54452bde406")
-	)
-	(hierarchical_label "TC2-"
-		(shape input)
-		(at 69.85 68.58 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b58d5c90-d76e-48bd-ab02-bd961c4114e0")
 	)
 	(hierarchical_label "TC1_SI"
 		(shape input)
