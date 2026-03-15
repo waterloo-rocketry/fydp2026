@@ -1,0 +1,3 @@
+[submodule "Theseus/PCB of Theseus/kicad-footprints"]
+	path = Theseus/PCB of Theseus/kicad-footprints
+	url = https://github.com/waterloo-rocketry/kicad-footprints
