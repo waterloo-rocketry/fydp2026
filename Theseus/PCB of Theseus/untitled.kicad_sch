@@ -1316,18 +1316,16 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Simulation_SPICE:NMOS"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Transistor_FET_Other:Q_NMOS_Depletion_GSD"
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Q"
-				(at 5.08 1.27 0)
+				(at 5.08 1.905 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1335,8 +1333,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "NMOS"
-				(at 5.08 -1.27 0)
+			(property "Value" "Q_NMOS_Depletion_GSD"
+				(at 5.08 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1345,24 +1343,6 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "N-MOSFET transistor, drain/source/gate"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1371,34 +1351,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Device" "NMOS"
-				(at 0 -17.145 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Type" "VDMOS"
-				(at 0 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=D 2=G 3=S"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET simulation"
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1407,7 +1360,25 @@
 					(hide yes)
 				)
 			)
-			(symbol "NMOS_0_1"
+			(property "Description" "Depletion-mode N-channel MOSFET gate/source/drain"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "NMOS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Q_NMOS_Depletion_GSD_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -1434,31 +1405,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
+						(xy 0.762 2.286) (xy 0.762 -2.286)
 					)
 					(stroke
 						(width 0.254)
@@ -1574,7 +1521,7 @@
 					)
 				)
 			)
-			(symbol "NMOS_1_1"
+			(symbol "Q_NMOS_Depletion_GSD_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -1585,7 +1532,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1603,7 +1550,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1621,7 +1568,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2159,6 +2106,16 @@
 		)
 		(uuid "51ce1f28-95a3-4e8e-9326-a4f73254372e")
 	)
+	(text "For Polaris Flight:\nDNP U5, C25, R21-26, Q1-2, D4-7, J8\nThermocouple and valves descoped"
+		(exclude_from_sim no)
+		(at 257.81 78.486 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "59b507d7-6fef-4e53-81ca-6243ae694699")
+	)
 	(text "BATT and GND split to each PT on harness"
 		(exclude_from_sim no)
 		(at 227.838 153.924 0)
@@ -2240,7 +2197,7 @@
 		(uuid "1d7ccff8-ee90-4538-ab0e-47679620d3a8")
 	)
 	(junction
-		(at 55.88 41.91)
+		(at 69.85 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2f9348d6-40be-4f61-bde1-1434c91ab90c")
@@ -2387,7 +2344,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 36.83) (xy 55.88 41.91)
+			(xy 69.85 29.21) (xy 69.85 34.29)
 		)
 		(stroke
 			(width 0)
@@ -2537,7 +2494,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 29.21) (xy 68.58 29.21)
+			(xy 53.34 36.83) (xy 59.69 36.83)
 		)
 		(stroke
 			(width 0)
@@ -2667,6 +2624,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 29.21) (xy 69.85 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d662a3d-649f-48bc-baa5-337d6dd763a6")
+	)
+	(wire
+		(pts
 			(xy 62.23 157.48) (xy 66.04 157.48)
 		)
 		(stroke
@@ -2694,16 +2661,6 @@
 			(type default)
 		)
 		(uuid "64f60a98-e7c9-4261-83ff-f725b829508a")
-	)
-	(wire
-		(pts
-			(xy 53.34 36.83) (xy 55.88 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66917417-a264-4979-970f-2842a754f831")
 	)
 	(wire
 		(pts
@@ -2877,7 +2834,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 34.29) (xy 68.58 34.29)
+			(xy 53.34 41.91) (xy 59.69 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2944,6 +2901,16 @@
 			(type default)
 		)
 		(uuid "9e36f56e-8cf1-4554-b054-2c61cbf5eadd")
+	)
+	(wire
+		(pts
+			(xy 53.34 34.29) (xy 69.85 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eff023d-ec9a-4c87-830b-a30ae2657f41")
 	)
 	(wire
 		(pts
@@ -3247,16 +3214,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 41.91) (xy 55.88 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df794270-66f7-4721-a04a-7be8c299b1ed")
-	)
-	(wire
-		(pts
 			(xy 48.26 129.54) (xy 48.26 128.27)
 		)
 		(stroke
@@ -3327,7 +3284,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 41.91) (xy 55.88 46.99)
+			(xy 69.85 34.29) (xy 69.85 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3684,7 +3641,7 @@
 	)
 	(hierarchical_label "HALL_1"
 		(shape input)
-		(at 68.58 29.21 0)
+		(at 59.69 36.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3693,7 +3650,7 @@
 		)
 		(uuid "707d0a74-b406-4619-9cdf-828db401c516")
 	)
-	(hierarchical_label "TC1_SO"
+	(hierarchical_label "TC1_MISO"
 		(shape input)
 		(at 83.82 157.48 0)
 		(effects
@@ -3704,7 +3661,7 @@
 		)
 		(uuid "8aaf3013-0cdf-4dcb-9304-b1c60be06519")
 	)
-	(hierarchical_label "TC1_CS"
+	(hierarchical_label "~{TC1_CS}"
 		(shape input)
 		(at 83.82 153.67 0)
 		(effects
@@ -3717,7 +3674,7 @@
 	)
 	(hierarchical_label "HALL_2"
 		(shape input)
-		(at 68.58 34.29 0)
+		(at 59.69 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3749,7 +3706,7 @@
 		(uuid "d4c0f8f6-e214-474d-9688-de78bca72166")
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
+		(lib_id "Transistor_FET_Other:Q_NMOS_Depletion_GSD")
 		(at 201.93 45.72 270)
 		(mirror x)
 		(unit 1)
@@ -3774,8 +3731,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70_Handsoldering"
-			(at 204.47 40.64 0)
+		(property "Footprint" "Fydp_footprints:SOT_12UW-7_DIO"
+			(at 201.93 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3783,8 +3740,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMG1012UW.pdf"
-			(at 189.23 45.72 0)
+		(property "Datasheet" "~"
+			(at 201.93 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3792,7 +3749,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
+		(property "Description" "Depletion-mode N-channel MOSFET gate/source/drain"
 			(at 201.93 45.72 0)
 			(effects
 				(font
@@ -3829,7 +3786,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "047e28ac-358e-4245-93fa-b29ba7397b7b")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR051"
 			(at 118.11 135.89 0)
 			(effects
 				(font
@@ -3879,7 +3836,7 @@
 		(instances
 			(project "PCB of Theseus"
 				(path "/4bacb39c-4494-4a9f-9fe3-1fedf5cd381a/3da4aeeb-467f-4ebb-8b4b-66927969e9be"
-					(reference "#PWR028")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -3895,7 +3852,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "065daa5c-7909-411f-8144-11fe9e28dd86")
-		(property "Reference" "D5"
+		(property "Reference" "D7"
 			(at 228.6 60.198 90)
 			(effects
 				(font
@@ -3967,7 +3924,7 @@
 		(instances
 			(project "PCB of Theseus"
 				(path "/4bacb39c-4494-4a9f-9fe3-1fedf5cd381a/3da4aeeb-467f-4ebb-8b4b-66927969e9be"
-					(reference "D5")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -3982,7 +3939,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0a400831-db15-4334-9744-9e9e55b36fb8")
-		(property "Reference" "D3"
+		(property "Reference" "D4"
 			(at 212.09 57.4674 90)
 			(effects
 				(font
@@ -4000,7 +3957,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 214.63 57.15 0)
 			(effects
 				(font
@@ -4045,7 +4002,7 @@
 		(instances
 			(project "PCB of Theseus"
 				(path "/4bacb39c-4494-4a9f-9fe3-1fedf5cd381a/3da4aeeb-467f-4ebb-8b4b-66927969e9be"
-					(reference "D3")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -4062,7 +4019,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b396c04-4bf3-47c4-b29d-5f561435af0e")
-		(property "Reference" "R4"
+		(property "Reference" "R25"
 			(at 212.09 48.2599 0)
 			(effects
 				(font
@@ -4116,7 +4073,7 @@
 		(instances
 			(project "PCB of Theseus"
 				(path "/4bacb39c-4494-4a9f-9fe3-1fedf5cd381a/3da4aeeb-467f-4ebb-8b4b-66927969e9be"
-					(reference "R4")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -4131,7 +4088,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "15937df8-0f51-4f4a-9cb6-b10c97fed93c")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR057"
 			(at 195.58 78.74 0)
 			(effects
 				(font
@@ -4181,7 +4138,7 @@
 		(instances
 			(project "PCB of Theseus"
 				(path "/4bacb39c-4494-4a9f-9fe3-1fedf5cd381a/3da4aeeb-467f-4ebb-8b4b-66927969e9be"
-					(reference "#PWR021")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -4197,7 +4154,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d54eed2-8e71-45a0-97a3-2e9ade58a0e1")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR052"
 			(at 135.89 137.16 0)
 			(effects
 				(font
@@ -4247,7 +4204,7 @@
 		(instances
 			(project "PCB of Theseus"
 				(path "/4bacb39c-4494-4a9f-9fe3-1fedf5cd381a/3da4aeeb-467f-4ebb-8b4b-66927969e9be"
-					(reference "#PWR027")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -4263,7 +4220,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f35281a-3477-4d54-b676-605eb5084585")
-		(property "Reference" "C35"
+		(property "Reference" "C25"
 			(at 101.6 152.3999 0)
 			(effects
 				(font
@@ -4317,7 +4274,7 @@
 		(instances
 			(project "PCB of Theseus"
 				(path "/4bacb39c-4494-4a9f-9fe3-1fedf5cd381a/3da4aeeb-467f-4ebb-8b4b-66927969e9be"
-					(reference "C35")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -4333,7 +4290,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22048aee-98fc-4c16-a42c-7db86a3eadd7")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR042"
 			(at 57.15 30.48 0)
 			(effects
 				(font
@@ -4383,7 +4340,7 @@
 		(instances
 			(project "PCB of Theseus"
 				(path "/4bacb39c-4494-4a9f-9fe3-1fedf5cd381a/3da4aeeb-467f-4ebb-8b4b-66927969e9be"
-					(reference "#PWR063")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -4398,7 +4355,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "222b14da-0724-4a3e-80bd-eece966fbf6a")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR043"
 			(at 62.23 148.59 0)
 			(effects
 				(font
@@ -4448,7 +4405,7 @@
 		(instances
 			(project "PCB of Theseus"
 				(path "/4bacb39c-4494-4a9f-9fe3-1fedf5cd381a/3da4aeeb-467f-4ebb-8b4b-66927969e9be"
-					(reference "#PWR080")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -4464,7 +4421,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2324a8b4-629d-4605-a50c-575e35dbbade")
-		(property "Reference" "U13"
+		(property "Reference" "U5"
 			(at 74.93 168.91 0)
 			(effects
 				(font
@@ -4534,7 +4491,7 @@
 		(instances
 			(project "PCB of Theseus"
 				(path "/4bacb39c-4494-4a9f-9fe3-1fedf5cd381a/3da4aeeb-467f-4ebb-8b4b-66927969e9be"
-					(reference "U13")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -4550,7 +4507,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29a5616e-0a26-48e2-95e3-ec51f21cac0a")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR058"
 			(at 199.39 121.92 0)
 			(effects
 				(font
@@ -4600,7 +4557,7 @@
 		(instances
 			(project ""
 				(path "/4bacb39c-4494-4a9f-9fe3-1fedf5cd381a/3da4aeeb-467f-4ebb-8b4b-66927969e9be"
-					(reference "#PWR02")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -4616,7 +4573,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b95e1c2-75a1-49ce-b17b-c2f2a87c5ffc")
-		(property "Reference" "R20"
+		(property "Reference" "R16"
 			(at 120.65 124.4599 0)
 			(effects
 				(font
@@ -4670,7 +4627,7 @@
 		(instances
 			(project "PCB of Theseus"
 				(path "/4bacb39c-4494-4a9f-9fe3-1fedf5cd381a/3da4aeeb-467f-4ebb-8b4b-66927969e9be"
-					(reference "R20")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -4687,7 +4644,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2bd5274c-7251-4cab-9807-a37debec1368")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR055"
 			(at 175.26 104.14 0)
 			(effects
 				(font
@@ -4737,7 +4694,7 @@
 		(instances
 			(project "PCB of Theseus"
 				(path "/4bacb39c-4494-4a9f-9fe3-1fedf5cd381a/3da4aeeb-467f-4ebb-8b4b-66927969e9be"
-					(reference "#PWR07")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -4753,7 +4710,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30a43291-c0d0-48f2-98fe-27b1428b9210")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR056"
 			(at 194.31 52.07 0)
 			(effects
 				(font
@@ -4803,7 +4760,7 @@
 		(instances
 			(project "PCB of Theseus"
 				(path "/4bacb39c-4494-4a9f-9fe3-1fedf5cd381a/3da4aeeb-467f-4ebb-8b4b-66927969e9be"
-					(reference "#PWR011")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -4819,7 +4776,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ed162c8-f6df-4f27-9a25-d82efd8e2d5e")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR046"
 			(at 82.55 31.75 0)
 			(effects
 				(font
@@ -4869,7 +4826,7 @@
 		(instances
 			(project "PCB of Theseus"
 				(path "/4bacb39c-4494-4a9f-9fe3-1fedf5cd381a/3da4aeeb-467f-4ebb-8b4b-66927969e9be"
-					(reference "#PWR066")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -4884,7 +4841,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "40579201-1dab-42d1-b831-9713acc17f25")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR049"
 			(at 97.79 152.4 0)
 			(effects
 				(font
@@ -4934,78 +4891,7 @@
 		(instances
 			(project "PCB of Theseus"
 				(path "/4bacb39c-4494-4a9f-9fe3-1fedf5cd381a/3da4aeeb-467f-4ebb-8b4b-66927969e9be"
-					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 203.2 72.39 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "550c21fc-16ff-4a18-a8e2-07269eec643a")
-		(property "Reference" "Q2"
-			(at 203.2 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DMG1012UW-7"
-			(at 203.2 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70_Handsoldering"
-			(at 205.74 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMG1012UW.pdf"
-			(at 190.5 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 203.2 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bd6f6271-bd40-40c0-bc42-ff77b61087c1")
-		)
-		(pin "3"
-			(uuid "a942a2e0-b4ea-4a0f-bd26-04169bfcba87")
-		)
-		(pin "2"
-			(uuid "c531a35c-10ed-4c7e-8150-12e7732815ce")
-		)
-		(instances
-			(project "PCB of Theseus"
-				(path "/4bacb39c-4494-4a9f-9fe3-1fedf5cd381a/3da4aeeb-467f-4ebb-8b4b-66927969e9be"
-					(reference "Q2")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -5021,7 +4907,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "55754f08-9f7f-4fda-a518-d21b0c2c8151")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR064"
 			(at 226.06 53.34 0)
 			(effects
 				(font
@@ -5072,7 +4958,7 @@
 		(instances
 			(project "PCB of Theseus"
 				(path "/4bacb39c-4494-4a9f-9fe3-1fedf5cd381a/3da4aeeb-467f-4ebb-8b4b-66927969e9be"
-					(reference "#PWR019")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -5088,7 +4974,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55fe6fdb-88bb-4903-a0ce-5e7a34cefeba")
-		(property "Reference" "R2"
+		(property "Reference" "R13"
 			(at 71.12 123.1899 0)
 			(effects
 				(font
@@ -5142,7 +5028,7 @@
 		(instances
 			(project "PCB of Theseus"
 				(path "/4bacb39c-4494-4a9f-9fe3-1fedf5cd381a/3da4aeeb-467f-4ebb-8b4b-66927969e9be"
-					(reference "R2")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -5159,7 +5045,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a7696b2-4feb-4564-b452-092f1b106a59")
-		(property "Reference" "R5"
+		(property "Reference" "R22"
 			(at 172.72 91.4399 0)
 			(effects
 				(font
@@ -5213,7 +5099,7 @@
 		(instances
 			(project "PCB of Theseus"
 				(path "/4bacb39c-4494-4a9f-9fe3-1fedf5cd381a/3da4aeeb-467f-4ebb-8b4b-66927969e9be"
-					(reference "R5")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -5229,7 +5115,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "64619801-3ab4-431b-b28b-2fcdfb205e63")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR054"
 			(at 175.26 76.2 0)
 			(effects
 				(font
@@ -5279,7 +5165,7 @@
 		(instances
 			(project "PCB of Theseus"
 				(path "/4bacb39c-4494-4a9f-9fe3-1fedf5cd381a/3da4aeeb-467f-4ebb-8b4b-66927969e9be"
-					(reference "#PWR06")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -5295,7 +5181,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66bac28d-c90c-43cf-894d-35f8f090dc87")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR045"
 			(at 68.58 135.89 0)
 			(effects
 				(font
@@ -5345,7 +5231,7 @@
 		(instances
 			(project "PCB of Theseus"
 				(path "/4bacb39c-4494-4a9f-9fe3-1fedf5cd381a/3da4aeeb-467f-4ebb-8b4b-66927969e9be"
-					(reference "#PWR03")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -5361,7 +5247,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6af94ed6-11d6-4139-8dd7-05e015f7183a")
-		(property "Reference" "TP4"
+		(property "Reference" "TP3"
 			(at 53.34 145.2879 0)
 			(effects
 				(font
@@ -5412,88 +5298,7 @@
 		(instances
 			(project "PCB of Theseus"
 				(path "/4bacb39c-4494-4a9f-9fe3-1fedf5cd381a/3da4aeeb-467f-4ebb-8b4b-66927969e9be"
-					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x06_Socket")
-		(at 222.25 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6bc69f75-a7ca-43eb-9ef2-aa373a115563")
-		(property "Reference" "J8"
-			(at 223.52 140.9699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x06_Socket"
-			(at 223.52 143.5099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "canhw_footprints:connector_Harwin_G125–MG10605M4P"
-			(at 222.25 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 222.25 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x06, script generated"
-			(at 222.25 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "485b8db2-775c-419d-be57-71b4cb283ac5")
-		)
-		(pin "1"
-			(uuid "be9092f3-e8dd-43da-9fbf-5f2dc64ca4ce")
-		)
-		(pin "2"
-			(uuid "da39b909-4330-4c7c-932f-c8e79ce89917")
-		)
-		(pin "4"
-			(uuid "df9803dd-76ea-43c8-8b1e-052228176990")
-		)
-		(pin "5"
-			(uuid "f3139e41-983b-4bf9-b6a3-116b56838cd3")
-		)
-		(pin "6"
-			(uuid "05761b62-b560-4830-92d5-1353363a3d61")
-		)
-		(instances
-			(project "PCB of Theseus"
-				(path "/4bacb39c-4494-4a9f-9fe3-1fedf5cd381a/3da4aeeb-467f-4ebb-8b4b-66927969e9be"
-					(reference "J8")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -5508,7 +5313,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "74380fd0-3e2f-4309-8d3f-bc6adc3f0580")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR061"
 			(at 214.63 67.31 0)
 			(effects
 				(font
@@ -5558,7 +5363,7 @@
 		(instances
 			(project "PCB of Theseus"
 				(path "/4bacb39c-4494-4a9f-9fe3-1fedf5cd381a/3da4aeeb-467f-4ebb-8b4b-66927969e9be"
-					(reference "#PWR012")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -5574,7 +5379,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78479575-404c-464c-9aad-db691b902fb1")
-		(property "Reference" "R7"
+		(property "Reference" "R26"
 			(at 224.79 76.1999 0)
 			(effects
 				(font
@@ -5628,7 +5433,88 @@
 		(instances
 			(project "PCB of Theseus"
 				(path "/4bacb39c-4494-4a9f-9fe3-1fedf5cd381a/3da4aeeb-467f-4ebb-8b4b-66927969e9be"
-					(reference "R7")
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x06_Socket")
+		(at 222.25 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "78e5e683-0332-4629-908f-a504b3f1abcb")
+		(property "Reference" "J7"
+			(at 223.52 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x06_Socket"
+			(at 223.52 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "canhw_footprints:connector_Harwin_G125–MG10605M4P"
+			(at 222.25 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 222.25 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 222.25 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "30ec20d7-bb19-4cea-8080-4d953a2ccb21")
+		)
+		(pin "1"
+			(uuid "85d26cd1-eb3e-4eef-9cbe-9bf374c08e1f")
+		)
+		(pin "2"
+			(uuid "932f566c-7634-40ca-8347-420a3af84f49")
+		)
+		(pin "4"
+			(uuid "d02b4bf7-1ed3-4a9e-9b28-a44d94c72f5e")
+		)
+		(pin "5"
+			(uuid "4a92fbb2-7b2a-459c-807d-b6b454fe6adf")
+		)
+		(pin "6"
+			(uuid "3490ba74-ff58-46e3-9e03-5b637794ea1e")
+		)
+		(instances
+			(project "PCB of Theseus"
+				(path "/4bacb39c-4494-4a9f-9fe3-1fedf5cd381a/3da4aeeb-467f-4ebb-8b4b-66927969e9be"
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -5643,7 +5529,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "78fdb41b-a058-4836-8840-98bcc7d1a3a1")
-		(property "Reference" "R28"
+		(property "Reference" "R24"
 			(at 198.12 91.44 90)
 			(effects
 				(font
@@ -5651,7 +5537,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "100R"
 			(at 198.12 88.9 90)
 			(effects
 				(font
@@ -5695,7 +5581,7 @@
 		(instances
 			(project "PCB of Theseus"
 				(path "/4bacb39c-4494-4a9f-9fe3-1fedf5cd381a/3da4aeeb-467f-4ebb-8b4b-66927969e9be"
-					(reference "R28")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -5703,7 +5589,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 55.88 46.99 0)
+		(at 69.85 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5711,8 +5597,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "79054b3e-5186-481c-9f3a-aba23ac1ad43")
-		(property "Reference" "#PWR065"
-			(at 55.88 53.34 0)
+		(property "Reference" "#PWR041"
+			(at 69.85 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5721,7 +5607,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 55.88 52.07 0)
+			(at 69.85 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5729,7 +5615,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 46.99 0)
+			(at 69.85 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5738,7 +5624,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 46.99 0)
+			(at 69.85 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5747,7 +5633,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 55.88 46.99 0)
+			(at 69.85 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5761,7 +5647,7 @@
 		(instances
 			(project "PCB of Theseus"
 				(path "/4bacb39c-4494-4a9f-9fe3-1fedf5cd381a/3da4aeeb-467f-4ebb-8b4b-66927969e9be"
-					(reference "#PWR065")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -5777,7 +5663,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d8ad1b5-9040-4964-a0b5-ad6a1b9f773c")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR062"
 			(at 222.25 31.75 0)
 			(effects
 				(font
@@ -5827,7 +5713,78 @@
 		(instances
 			(project "PCB of Theseus"
 				(path "/4bacb39c-4494-4a9f-9fe3-1fedf5cd381a/3da4aeeb-467f-4ebb-8b4b-66927969e9be"
-					(reference "#PWR010")
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET_Other:Q_NMOS_Depletion_GSD")
+		(at 203.2 72.39 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "80d45827-aa44-4772-b14e-48b3f1c25a28")
+		(property "Reference" "Q2"
+			(at 203.2 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DMG1012UW-7"
+			(at 203.2 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fydp_footprints:SOT_12UW-7_DIO"
+			(at 203.2 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Depletion-mode N-channel MOSFET gate/source/drain"
+			(at 203.2 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a1d7add-821a-48f5-97dc-57a4f9747d0b")
+		)
+		(pin "3"
+			(uuid "07348baa-373e-4d33-a539-8ddf228edef7")
+		)
+		(pin "2"
+			(uuid "6ca4489c-a4ad-455c-9162-c65f1edc7342")
+		)
+		(instances
+			(project "PCB of Theseus"
+				(path "/4bacb39c-4494-4a9f-9fe3-1fedf5cd381a/3da4aeeb-467f-4ebb-8b4b-66927969e9be"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -5844,7 +5801,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83db0736-6210-48c0-b98b-1bbd06a1a307")
-		(property "Reference" "R6"
+		(property "Reference" "R21"
 			(at 172.72 62.2299 0)
 			(effects
 				(font
@@ -5898,7 +5855,7 @@
 		(instances
 			(project "PCB of Theseus"
 				(path "/4bacb39c-4494-4a9f-9fe3-1fedf5cd381a/3da4aeeb-467f-4ebb-8b4b-66927969e9be"
-					(reference "R6")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -5914,7 +5871,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85a3635a-0321-43fb-be30-0cfd61c67307")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR060"
 			(at 199.39 157.48 0)
 			(effects
 				(font
@@ -5964,7 +5921,7 @@
 		(instances
 			(project "PCB of Theseus"
 				(path "/4bacb39c-4494-4a9f-9fe3-1fedf5cd381a/3da4aeeb-467f-4ebb-8b4b-66927969e9be"
-					(reference "#PWR025")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -5979,7 +5936,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "87908305-e22c-4fa0-af6f-923c64cc2e67")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR044"
 			(at 62.23 170.18 0)
 			(effects
 				(font
@@ -6029,7 +5986,7 @@
 		(instances
 			(project "PCB of Theseus"
 				(path "/4bacb39c-4494-4a9f-9fe3-1fedf5cd381a/3da4aeeb-467f-4ebb-8b4b-66927969e9be"
-					(reference "#PWR081")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -6044,7 +6001,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8a7a2e6a-35cc-491e-bf91-27fd1cedfca9")
-		(property "Reference" "R3"
+		(property "Reference" "R12"
 			(at 43.942 124.714 0)
 			(effects
 				(font
@@ -6098,7 +6055,7 @@
 		(instances
 			(project "PCB of Theseus"
 				(path "/4bacb39c-4494-4a9f-9fe3-1fedf5cd381a/3da4aeeb-467f-4ebb-8b4b-66927969e9be"
-					(reference "R3")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -6184,7 +6141,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b1a7292-35cd-4533-bf70-7f70742cd60f")
-		(property "Reference" "R8"
+		(property "Reference" "R19"
 			(at 156.21 115.5699 0)
 			(effects
 				(font
@@ -6238,7 +6195,7 @@
 		(instances
 			(project ""
 				(path "/4bacb39c-4494-4a9f-9fe3-1fedf5cd381a/3da4aeeb-467f-4ebb-8b4b-66927969e9be"
-					(reference "R8")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -6254,7 +6211,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d40a366-e94b-4fcb-baab-f500be02ba8c")
-		(property "Reference" "R9"
+		(property "Reference" "R20"
 			(at 156.21 125.7299 0)
 			(effects
 				(font
@@ -6308,7 +6265,7 @@
 		(instances
 			(project "PCB of Theseus"
 				(path "/4bacb39c-4494-4a9f-9fe3-1fedf5cd381a/3da4aeeb-467f-4ebb-8b4b-66927969e9be"
-					(reference "R9")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -6324,7 +6281,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a130d48c-d938-4e94-b08c-a3f225b4a06b")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR047"
 			(at 82.55 46.99 0)
 			(effects
 				(font
@@ -6374,7 +6331,7 @@
 		(instances
 			(project "PCB of Theseus"
 				(path "/4bacb39c-4494-4a9f-9fe3-1fedf5cd381a/3da4aeeb-467f-4ebb-8b4b-66927969e9be"
-					(reference "#PWR067")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -6390,7 +6347,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5b338eb-5225-4176-a9af-ca6b1ade2a5b")
-		(property "Reference" "R1"
+		(property "Reference" "R14"
 			(at 91.44 123.1899 0)
 			(effects
 				(font
@@ -6444,7 +6401,7 @@
 		(instances
 			(project "PCB of Theseus"
 				(path "/4bacb39c-4494-4a9f-9fe3-1fedf5cd381a/3da4aeeb-467f-4ebb-8b4b-66927969e9be"
-					(reference "R1")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -6460,7 +6417,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab630ed4-0d1f-47b3-ae67-9cd0cf5bc726")
-		(property "Reference" "R19"
+		(property "Reference" "R15"
 			(at 120.65 114.2999 0)
 			(effects
 				(font
@@ -6514,7 +6471,7 @@
 		(instances
 			(project "PCB of Theseus"
 				(path "/4bacb39c-4494-4a9f-9fe3-1fedf5cd381a/3da4aeeb-467f-4ebb-8b4b-66927969e9be"
-					(reference "R19")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -6530,7 +6487,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "acb41202-7396-4e26-82b2-92adc480bc44")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR063"
 			(at 222.25 96.52 0)
 			(effects
 				(font
@@ -6580,7 +6537,7 @@
 		(instances
 			(project "PCB of Theseus"
 				(path "/4bacb39c-4494-4a9f-9fe3-1fedf5cd381a/3da4aeeb-467f-4ebb-8b4b-66927969e9be"
-					(reference "#PWR020")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -6596,7 +6553,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "acbfd929-344a-4d0c-803d-47c14228634d")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR040"
 			(at 48.26 135.89 0)
 			(effects
 				(font
@@ -6646,7 +6603,7 @@
 		(instances
 			(project "PCB of Theseus"
 				(path "/4bacb39c-4494-4a9f-9fe3-1fedf5cd381a/3da4aeeb-467f-4ebb-8b4b-66927969e9be"
-					(reference "#PWR04")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -6662,7 +6619,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3c541ce-3343-4a80-a5cc-8e9de782216a")
-		(property "Reference" "C19"
+		(property "Reference" "C24"
 			(at 97.79 33.0199 0)
 			(effects
 				(font
@@ -6716,7 +6673,88 @@
 		(instances
 			(project "PCB of Theseus"
 				(path "/4bacb39c-4494-4a9f-9fe3-1fedf5cd381a/3da4aeeb-467f-4ebb-8b4b-66927969e9be"
-					(reference "C19")
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x06_Socket")
+		(at 222.25 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bdad2907-b615-4f08-b656-fad36a37dd1a")
+		(property "Reference" "J6"
+			(at 223.52 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x06_Socket"
+			(at 223.52 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "canhw_footprints:connector_Harwin_G125–MG10605M4P"
+			(at 222.25 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 222.25 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 222.25 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "fb9d8613-3a29-4833-853a-d8310b28788e")
+		)
+		(pin "1"
+			(uuid "370d989c-1fe2-4066-b134-e496db55ea81")
+		)
+		(pin "2"
+			(uuid "45aa5e75-9f91-4bbd-9288-ad83cb8b6642")
+		)
+		(pin "4"
+			(uuid "6d875f7f-9cd0-4207-85d7-0abad9696978")
+		)
+		(pin "5"
+			(uuid "0d075bf8-eb7d-4de1-9975-af3a6b576ee1")
+		)
+		(pin "6"
+			(uuid "fad884c0-ef3d-44ad-881f-65ddc4e98aa1")
+		)
+		(instances
+			(project "PCB of Theseus"
+				(path "/4bacb39c-4494-4a9f-9fe3-1fedf5cd381a/3da4aeeb-467f-4ebb-8b4b-66927969e9be"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -6732,7 +6770,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "be620d9e-20b2-4da3-bcd8-c045260e546a")
-		(property "Reference" "J2"
+		(property "Reference" "J5"
 			(at 46.99 34.2899 0)
 			(effects
 				(font
@@ -6798,7 +6836,7 @@
 		(instances
 			(project "PCB of Theseus"
 				(path "/4bacb39c-4494-4a9f-9fe3-1fedf5cd381a/3da4aeeb-467f-4ebb-8b4b-66927969e9be"
-					(reference "J2")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -6814,7 +6852,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c72008a1-bdb2-431e-8642-e9067cc4728a")
-		(property "Reference" "R27"
+		(property "Reference" "R23"
 			(at 184.15 50.8 90)
 			(effects
 				(font
@@ -6822,7 +6860,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "100R"
 			(at 184.15 53.34 90)
 			(effects
 				(font
@@ -6866,7 +6904,7 @@
 		(instances
 			(project "PCB of Theseus"
 				(path "/4bacb39c-4494-4a9f-9fe3-1fedf5cd381a/3da4aeeb-467f-4ebb-8b4b-66927969e9be"
-					(reference "R27")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -6882,7 +6920,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8b6dff9-4663-4322-82c5-0151a3e6c195")
-		(property "Reference" "C18"
+		(property "Reference" "C23"
 			(at 86.36 33.0199 0)
 			(effects
 				(font
@@ -6936,7 +6974,7 @@
 		(instances
 			(project "PCB of Theseus"
 				(path "/4bacb39c-4494-4a9f-9fe3-1fedf5cd381a/3da4aeeb-467f-4ebb-8b4b-66927969e9be"
-					(reference "C18")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -6952,7 +6990,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5abdb64-8ffe-4b99-988a-79bbe951d0e6")
-		(property "Reference" "R10"
+		(property "Reference" "R17"
 			(at 138.43 114.2999 0)
 			(effects
 				(font
@@ -7006,7 +7044,7 @@
 		(instances
 			(project "PCB of Theseus"
 				(path "/4bacb39c-4494-4a9f-9fe3-1fedf5cd381a/3da4aeeb-467f-4ebb-8b4b-66927969e9be"
-					(reference "R10")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -7021,7 +7059,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d6d4fffe-20aa-49f3-be18-7ef623e5fef9")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR050"
 			(at 97.79 163.83 0)
 			(effects
 				(font
@@ -7071,7 +7109,7 @@
 		(instances
 			(project "PCB of Theseus"
 				(path "/4bacb39c-4494-4a9f-9fe3-1fedf5cd381a/3da4aeeb-467f-4ebb-8b4b-66927969e9be"
-					(reference "#PWR037")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -7087,7 +7125,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "db960f96-4027-4d13-bd70-bdb8f18900ab")
-		(property "Reference" "D1"
+		(property "Reference" "D5"
 			(at 224.79 36.068 90)
 			(effects
 				(font
@@ -7159,7 +7197,7 @@
 		(instances
 			(project "PCB of Theseus"
 				(path "/4bacb39c-4494-4a9f-9fe3-1fedf5cd381a/3da4aeeb-467f-4ebb-8b4b-66927969e9be"
-					(reference "D1")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -7175,7 +7213,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc5b8377-5b33-4a34-bda7-da437cfb1d0a")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR048"
 			(at 88.9 135.89 0)
 			(effects
 				(font
@@ -7225,7 +7263,7 @@
 		(instances
 			(project "PCB of Theseus"
 				(path "/4bacb39c-4494-4a9f-9fe3-1fedf5cd381a/3da4aeeb-467f-4ebb-8b4b-66927969e9be"
-					(reference "#PWR01")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -7241,7 +7279,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5bb242a-df96-4d8c-825a-d35c222e6840")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR059"
 			(at 199.39 144.78 0)
 			(effects
 				(font
@@ -7291,88 +7329,7 @@
 		(instances
 			(project "PCB of Theseus"
 				(path "/4bacb39c-4494-4a9f-9fe3-1fedf5cd381a/3da4aeeb-467f-4ebb-8b4b-66927969e9be"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x06_Socket")
-		(at 222.25 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e882c265-8b9a-4a6a-ad46-29b8cd82d6d4")
-		(property "Reference" "J4"
-			(at 223.52 118.1099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x06_Socket"
-			(at 223.52 120.6499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "canhw_footprints:connector_Harwin_G125–MG10605M4P"
-			(at 222.25 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 222.25 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x06, script generated"
-			(at 222.25 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "e382449b-195b-4d12-81f3-5ddbeea00dfb")
-		)
-		(pin "1"
-			(uuid "3d5761ed-2da6-4ce8-a27a-3e852a6faf80")
-		)
-		(pin "2"
-			(uuid "510e1498-2450-4ac0-8957-d21fca259d9f")
-		)
-		(pin "4"
-			(uuid "635dd211-b6b4-4d74-a3d3-91378091db56")
-		)
-		(pin "5"
-			(uuid "ee62130c-743b-414d-b38b-e8c2c836970e")
-		)
-		(pin "6"
-			(uuid "d9a5e148-a970-4c67-a69f-09081a3bf28d")
-		)
-		(instances
-			(project "PCB of Theseus"
-				(path "/4bacb39c-4494-4a9f-9fe3-1fedf5cd381a/3da4aeeb-467f-4ebb-8b4b-66927969e9be"
-					(reference "J4")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -7387,7 +7344,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f247f780-6767-47dc-8de9-298c1fe7ebfc")
-		(property "Reference" "D4"
+		(property "Reference" "D6"
 			(at 226.06 85.4074 90)
 			(effects
 				(font
@@ -7405,7 +7362,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 222.25 85.09 0)
 			(effects
 				(font
@@ -7450,7 +7407,7 @@
 		(instances
 			(project "PCB of Theseus"
 				(path "/4bacb39c-4494-4a9f-9fe3-1fedf5cd381a/3da4aeeb-467f-4ebb-8b4b-66927969e9be"
-					(reference "D4")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -7466,7 +7423,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4722644-e5ab-4d2e-a886-c739c58f78d5")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR053"
 			(at 153.67 137.16 0)
 			(effects
 				(font
@@ -7516,7 +7473,7 @@
 		(instances
 			(project ""
 				(path "/4bacb39c-4494-4a9f-9fe3-1fedf5cd381a/3da4aeeb-467f-4ebb-8b4b-66927969e9be"
-					(reference "#PWR026")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -7532,7 +7489,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4dd3225-d368-4ef7-a8e2-28acbf4da9e1")
-		(property "Reference" "J1"
+		(property "Reference" "J8"
 			(at 255.27 45.7199 0)
 			(effects
 				(font
@@ -7598,7 +7555,7 @@
 		(instances
 			(project ""
 				(path "/4bacb39c-4494-4a9f-9fe3-1fedf5cd381a/3da4aeeb-467f-4ebb-8b4b-66927969e9be"
-					(reference "J1")
+					(reference "J8")
 					(unit 1)
 				)
 			)
