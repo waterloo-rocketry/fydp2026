@@ -3446,6 +3446,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 185.42 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b63b5886-a86f-44bb-ad23-d81d61d23965")
 		)
@@ -3647,6 +3656,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 62.23 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e02bc73e-38b0-48ed-bd54-7d5022ac79c2")
 		)
@@ -3705,6 +3723,15 @@
 		)
 		(property "Description" "Inductor, small symbol"
 			(at 99.06 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 99.06 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3774,6 +3801,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 132.08 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 132.08 157.48 0)
 			(effects
 				(font
@@ -3918,6 +3954,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 120.65 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1c7f13ff-2b05-4411-8837-7eb36e158a9f")
 		)
@@ -3980,6 +4025,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 166.37 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 166.37 41.91 0)
 			(effects
 				(font
@@ -4122,6 +4176,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 88.9 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3e556032-f047-4dd1-a04d-6400a02aa51c")
 		)
@@ -4192,6 +4255,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 21.59 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/4bacb39c-4494-4a9f-9fe3-1fedf5cd381a"
@@ -4246,6 +4318,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 71.12 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 71.12 139.7 0)
 			(effects
 				(font
@@ -4394,6 +4475,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 24.13 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 24.13 156.21 0)
 			(effects
 				(font
@@ -4604,6 +4694,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 120.65 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bf0ad249-56f7-45dd-82db-e324007d0e4a")
 		)
@@ -4674,6 +4773,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 166.37 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b5a3f901-3379-425e-8e59-d3aa3a4e8e9b")
 		)
@@ -4736,6 +4844,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 143.51 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 143.51 157.48 0)
 			(effects
 				(font
@@ -4880,6 +4997,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 21.59 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/4bacb39c-4494-4a9f-9fe3-1fedf5cd381a"
@@ -4935,6 +5061,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 59.69 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 59.69 101.6 0)
 			(effects
 				(font
@@ -5071,6 +5206,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 68.58 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 68.58 35.56 0)
 			(effects
 				(font
@@ -5278,6 +5422,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 212.09 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fc0d8d29-1d33-4a3d-9a5d-d829dd63616d")
 		)
@@ -5340,6 +5493,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 46.99 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 46.99 156.21 0)
 			(effects
 				(font
@@ -5474,6 +5636,15 @@
 			)
 		)
 		(property "Description" "4+4 Pos. Male Horizontal Throughboard Conn. Screw-Lok Board Mount"
+			(at 64.77 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 64.77 50.8 0)
 			(effects
 				(font
@@ -5636,6 +5807,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 21.59 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/4bacb39c-4494-4a9f-9fe3-1fedf5cd381a"
@@ -5692,6 +5872,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 109.22 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 109.22 151.13 0)
 			(effects
 				(font
@@ -5770,6 +5959,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 21.59 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/4bacb39c-4494-4a9f-9fe3-1fedf5cd381a"
@@ -5826,6 +6024,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 109.22 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 109.22 163.83 0)
 			(effects
 				(font
@@ -5971,6 +6178,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 86.36 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "a6b172c8-ece6-4b7a-9725-c45b63dfe821")
 		)
@@ -6051,6 +6267,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 35.56 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 35.56 156.21 0)
 			(effects
 				(font
@@ -6184,6 +6409,15 @@
 			)
 		)
 		(property "Description" "Schottky diode"
+			(at 85.09 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 85.09 54.61 0)
 			(effects
 				(font
@@ -6374,7 +6608,7 @@
 		(instances
 			(project "PCB of Theseus"
 				(path "/4bacb39c-4494-4a9f-9fe3-1fedf5cd381a"
-					(page "5")
+					(page "4")
 				)
 			)
 		)

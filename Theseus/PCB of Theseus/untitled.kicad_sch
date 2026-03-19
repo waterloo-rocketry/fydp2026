@@ -3758,6 +3758,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 201.93 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a84d652b-0ac0-465f-807b-524de6ce98d5")
 		)
@@ -3915,6 +3924,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 226.06 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dd1fde1d-8659-42c9-9c1d-43febb2975a6")
 		)
@@ -3993,6 +4011,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 214.63 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fd7ee296-a923-469e-b7f5-089081d3a2e5")
 		)
@@ -4056,6 +4083,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 214.63 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 214.63 49.53 0)
 			(effects
 				(font
@@ -4265,6 +4301,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 97.79 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "dcccb283-9b05-4432-8466-1079e324e0c7")
 		)
@@ -4464,6 +4509,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 74.93 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "380887ec-49d7-49d7-8908-e7c217d6e1c7")
 		)
@@ -4610,6 +4664,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 118.11 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 118.11 125.73 0)
 			(effects
 				(font
@@ -5019,6 +5082,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 68.58 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a4e3209e-8a88-4c46-9b31-4aec45d079fb")
 		)
@@ -5082,6 +5154,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 175.26 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 175.26 92.71 0)
 			(effects
 				(font
@@ -5292,6 +5373,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 50.8 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0e795c7f-590f-4190-a968-26c22ba32829")
 		)
@@ -5424,6 +5514,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 222.25 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "76b8a946-b8af-489a-8280-69cc4a1431f7")
 		)
@@ -5485,6 +5584,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 222.25 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 222.25 140.97 0)
 			(effects
 				(font
@@ -5565,6 +5673,15 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 198.12 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 198.12 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5772,6 +5889,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 203.2 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3a1d7add-821a-48f5-97dc-57a4f9747d0b")
 		)
@@ -5838,6 +5964,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 175.26 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 175.26 63.5 0)
 			(effects
 				(font
@@ -6046,6 +6181,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 48.26 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "03b95f57-59f5-4cb7-bee9-999b9bf86a6e")
 		)
@@ -6108,6 +6252,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 135.89 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 135.89 127 0)
 			(effects
 				(font
@@ -6186,6 +6339,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 153.67 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2796d763-a282-4acb-b5d2-21648b6cfb27")
 		)
@@ -6248,6 +6410,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 153.67 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 153.67 127 0)
 			(effects
 				(font
@@ -6392,6 +6563,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 88.9 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "71ed11ff-37b5-4135-8882-3768026c154f")
 		)
@@ -6454,6 +6634,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 118.11 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 118.11 115.57 0)
 			(effects
 				(font
@@ -6664,6 +6853,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 93.98 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "319c581b-717e-4759-b3cf-e043266c6174")
 		)
@@ -6725,6 +6923,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 222.25 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 222.25 118.11 0)
 			(effects
 				(font
@@ -6815,6 +7022,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 48.26 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "ffc26a1e-cc47-4d17-89df-d78277b95509")
 		)
@@ -6895,6 +7111,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 184.15 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "72ffbba1-bbc2-4926-99ba-e2c50eb26512")
 		)
@@ -6965,6 +7190,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 82.55 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4ea70ef2-18c6-4519-adf6-9ed4d1bcca04")
 		)
@@ -7027,6 +7261,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 135.89 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 135.89 115.57 0)
 			(effects
 				(font
@@ -7181,6 +7424,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 222.25 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 222.25 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7398,6 +7650,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 222.25 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4542d314-c553-4935-a3cd-a449469e0f5d")
 		)
@@ -7526,6 +7787,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 254 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 254 45.72 0)
 			(effects
 				(font
