@@ -5427,7 +5427,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "canhw_footprints:connector_Harwin_G125–MG10605M4P"
 			(at 228.6 128.27 0)
 			(effects
 				(font
@@ -8487,7 +8487,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "canhw_footprints:connector_Harwin_G125–MG10605M4P"
 			(at 228.6 109.22 0)
 			(effects
 				(font
@@ -8515,22 +8515,22 @@
 			)
 		)
 		(pin "4"
-			(uuid "b211da91-d517-48c9-bdb9-dd1b13c055b5")
+			(uuid "b211da91-d517-48c9-bdb9-dd1b13c055b6")
 		)
 		(pin "2"
-			(uuid "55307e48-8bc2-4fec-8e8c-2f9e0e7089d8")
+			(uuid "55307e48-8bc2-4fec-8e8c-2f9e0e7089d9")
 		)
 		(pin "5"
-			(uuid "87d81546-7977-433b-afc5-cdb7788eba04")
+			(uuid "87d81546-7977-433b-afc5-cdb7788eba05")
 		)
 		(pin "1"
-			(uuid "f1ab1e00-cb34-472a-88ce-120780d0510c")
+			(uuid "f1ab1e00-cb34-472a-88ce-120780d0510d")
 		)
 		(pin "3"
-			(uuid "5602aee5-1fb3-42a9-9dc2-802623630ca4")
+			(uuid "5602aee5-1fb3-42a9-9dc2-802623630ca5")
 		)
 		(pin "6"
-			(uuid "e66ad918-902c-42bf-b43f-33486f09f7c7")
+			(uuid "e66ad918-902c-42bf-b43f-33486f09f7c8")
 		)
 		(instances
 			(project ""
@@ -8569,7 +8569,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "canhw_footprints:connector_Harwin_G125–MG10605M4P"
 			(at 228.6 148.59 0)
 			(effects
 				(font
@@ -8597,22 +8597,22 @@
 			)
 		)
 		(pin "4"
-			(uuid "b211da91-d517-48c9-bdb9-dd1b13c055b5")
+			(uuid "b211da91-d517-48c9-bdb9-dd1b13c055b7")
 		)
 		(pin "2"
-			(uuid "55307e48-8bc2-4fec-8e8c-2f9e0e7089d8")
+			(uuid "55307e48-8bc2-4fec-8e8c-2f9e0e7089da")
 		)
 		(pin "5"
-			(uuid "87d81546-7977-433b-afc5-cdb7788eba04")
+			(uuid "87d81546-7977-433b-afc5-cdb7788eba06")
 		)
 		(pin "1"
-			(uuid "f1ab1e00-cb34-472a-88ce-120780d0510c")
+			(uuid "f1ab1e00-cb34-472a-88ce-120780d0510e")
 		)
 		(pin "3"
-			(uuid "5602aee5-1fb3-42a9-9dc2-802623630ca4")
+			(uuid "5602aee5-1fb3-42a9-9dc2-802623630ca6")
 		)
 		(pin "6"
-			(uuid "e66ad918-902c-42bf-b43f-33486f09f7c7")
+			(uuid "e66ad918-902c-42bf-b43f-33486f09f7c9")
 		)
 		(instances
 			(project ""
