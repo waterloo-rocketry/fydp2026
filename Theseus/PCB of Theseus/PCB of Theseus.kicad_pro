@@ -679,6 +679,10 @@
     [
       "3da4aeeb-467f-4ebb-8b4b-66927969e9be",
       "Valves and Sensors"
+    ],
+    [
+      "c485666b-8d47-4b1f-854e-f0cfbdb26101",
+      "Thermocouples"
     ]
   ],
   "text_variables": {}
